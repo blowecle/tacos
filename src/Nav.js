@@ -5,15 +5,15 @@ const Nav = () => {
     return (<nav>
         <input type="checkbox" id="check"/>
         <label htmlFor="check" className="checkbtn">
-          <i className="fas fa-bars">test</i>
+          <i className="fas fa-bars"></i>
         </label>
-        <label className="logo">DesignX</label>
+        <label className="logo">Tacos Traviesas</label>
         <ul>
-          <li><a className="active" href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/services">Services</a></li>
-          <li><a href="/contact">Contact</a></li>
-          <li><a href="feedback">Feedback</a></li>
+          <li className='list-item'><a href="/">Home</a></li>
+            <li className='list-item'><a href="/menu">MENU</a></li>
+          <li className='list-item'><a href="/services">Services</a></li>
+          <li className='list-item'><a href="">Contact</a></li>
+          <li className='list-item'><a href='https://twitter.com/tacostraviesas1'>Twitter</a></li>
         </ul>
       </nav>)
 }

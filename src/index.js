@@ -6,14 +6,16 @@ import Nav from './Nav';
 import Router from './Routes'
 import { BrowserRouter } from 'react-router-dom';
 import Footer from './Footer';
+import Construction from './Construction';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <Nav />
       <Router/>
     </BrowserRouter>
-    <Footer />
+    <Footer /> */}
+    <Construction />
   </React.StrictMode>
 );

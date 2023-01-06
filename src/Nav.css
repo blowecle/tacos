@@ -11,7 +11,7 @@
   }
   @font-face {
     font-family: logoFont;
-    src: url('../public/flamante-semislab.bold.ttf');
+    src: url('../public/HandCraftedARegular.ttf');
   }
   nav{
     z-index: 1;

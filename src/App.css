@@ -1,4 +1,8 @@
-.wrapper{
+@font-face {
+  font-family: logoFont;
+  src: url('../public/HandCraftedARegular.ttf');
+}
+/* .wrapper{
   margin-top: 80px;
   border-top: 1vh solid;
   border-color: #d6a242;
@@ -97,4 +101,4 @@ header {
 
 .fas, .fa-bars {
   color: #0082e6;
-}
+} */

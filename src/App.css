@@ -51,7 +51,6 @@ src: url('../public/HandCraftedARegular.ttf');
     display: flex;
     flex-direction: row;
     width: 400%;
-
     animation: slide 14s ease-in infinite;
   }
     
@@ -76,6 +75,7 @@ src: url('../public/HandCraftedARegular.ttf');
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-top: 5vh;
   }
 
   .one {
@@ -83,12 +83,16 @@ src: url('../public/HandCraftedARegular.ttf');
   }
 
   .two {
-    margin-top: 0;
     background-color: #d0342c;
   }
 
+  .three {
+    background-color: rgb(0, 0, 160);
+    color: white;
+  }
+
   .image {
+    margin-top: 5vh;
     width: 100vw;
-    height: 100%;
   }
 }

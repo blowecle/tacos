@@ -17,10 +17,12 @@ function App() {
 
   const handleClick = (ref) => {
     if (ref.current) {
-      const headerHeight = 0.15 * window.innerHeight;
+      const headerHeight = 0.2 * window.innerHeight;
       const elementTopOffset = ref.current.getBoundingClientRect().top;
       const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
   
+      if(visible) setVisible(false);
+
       window.scrollTo({
         top: scrollPosition + elementTopOffset - headerHeight,
         behavior: 'smooth',
@@ -28,7 +30,7 @@ function App() {
     }
   };
 
-  return (<>
+  return (
     <div className='wrapper'>
     <div className='nav-wrapper'>
           <div className={!visible ? 'nav-hamburger' : 'invisible'} onClick={() => setVisible(!visible)}>
@@ -45,13 +47,13 @@ function App() {
                 <div className="sidebar-contents">
                   <div onClick={() => handleClick(ref1)}>Menu</div>
                   <div onClick={() => handleClick(ref2)}>About Us</div>
-                  <div onClick={() => handleClick(ref3)}>Events</div>
+                  <div onClick={() => handleClick(ref3)}>Catering</div>
                   <div onClick={() => handleClick(ref4)}>Info</div>
                 </div>
             </div>
         </div>
       <Header/>
-      <div className='logo' onClick={() => handleClick(ref2)}>LOGO</div>
+      <div className='logo'>LOGO</div>
       <div className='content one'>
         <div ref={ref1} className='content-header'>MENU</div>
         <div className='content-body'>Etiam nec ipsum libero. Maecenas eu mi iaculis, blandit magna nec, pretium augue. Donec ut laoreet mauris. Praesent varius nibh mauris, at auctor neque sodales eget. Vestibulum lacus ipsum, posuere a maximus at, luctus et odio. Nunc eget elit libero. Etiam purus libero, efficitur et sem in, feugiat tempus lectus. Phasellus et pharetra risus.</div>
@@ -80,8 +82,16 @@ function App() {
             </div>
         </div>
       </div>
+      <div className='content three'>
+        <div ref={ref3} className='content-header'>CATERING</div>
+          <div className='content-body'>This is where the information about catering goes.  We have lots of catering.  Even our catering has catering.  Tortillas?  You know it.  Best fucking tortillas in all of Ireland, dawg.</div>
+      </div>
+      <img className='zoe image' src='https://res.cloudinary.com/dyjzfdguj/image/upload/v1684960996/tacos/70263335613__B49FC130-29C9-45F8-BE55-3D82F2B9DCC7_e3xsaq.jpg' alt='zoe'/>
+      <div className='content frou'>
+        <div ref={ref4} className='content-header'>INFO</div>
+          <div className='content-body'>This is where we put some information about Zoe.  She is a baller chef and has an awesome tattoo that says 'fuck brunch' because, well, fuck brunch!</div>
+      </div>
     </div>
-    </>
   );
 }
 

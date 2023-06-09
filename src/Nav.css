@@ -1,119 +1,90 @@
-/* *{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-  }
-  body{
-    font-family: montserrat;
-    min-width: 350px;
-  }
-  @font-face {
-    font-family: logoFont;
-    src: url('../public/HandCraftedARegular.ttf');
-  }
-  nav{
-    z-index: 1;
-    background: #a6dfce;
-    height: 80px;
-    width: 100%;
-    position: fixed;
-    top: 0; 
-    border-bottom: .5vh solid #d6a242;
+.nav-hamburger-line {
+    width: 35px;
+    height: 5px;
+    background-color: #d6a242;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.invisible {
+  display: none;
+}
+
+.sidebar {
+  height: 50vh;
+  background-color: #d6a242;
+  width: 100vw;
+  height: 100vh;
+}
+
+#x {
+  min-width: 1.2em;
+  max-height: 1.2em;
+  border-radius: 0.2em;
+  font-size: 2rem;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-family: logoFont;
+}
+
+.nav {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: #d6a242;
+}
+
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a6dfce;
+  height: 80px;
+}
+
+.nav-wrapper {
+  position: fixed;
+  z-index: 100;
+}
+
+.nav-hamburger {
+  margin-left: 1vw;
+  margin-top: 4vh;
+  z-index: 10;
+  position: absolute;
+  left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 100vh;
+    width: 100vw;
   }
 
-  label.logo{
-    color: #d0342c;
-    text-shadow: 1.5px 1.5px #d6a242;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 8vw;
-    font-weight: bold;
-    font-family: logoFont;
+  .sidebar-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
-  nav ul{
-    float: right;
-    margin-right: 20px;
-  }
-  nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-  }
-  nav ul li a{
-    color: #0082e6;
-    font-family: logoFont;
-    font-size: 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-  }
-  a.active,a:hover{
-    background: #0082e6;
-    color: white;
-    transition: .5s;
-  }
-  .checkbtn{
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-  }
-  #check{
-    display: none;
-  }
-  @media (max-width: 952px){
-    label.logo{
-      font-size: 30px;
-      padding-left: 5vw;
-    }
-    nav ul li a{
-      font-size: 16px;
-    }
-    .checkbtn{
-      display: block;
-    }
-    .checkbtn{
-      display: block;
-    }
-    ul{
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      background: #a6dfce;
-      top: 80px;
-      left: -100%;
-      text-align: center;
-      transition: all .5s;
-    }
-    nav ul li{
-      display: block;
-      margin: 50px 0;
-      line-height: 30px;
-    }
-    nav ul li a{
-      font-size: 20px;
-      color: #0082e6;
-      font-family: logoFont;
-    }
 
-    .list-item{
-      font-size: 20px;
-      color: #0082e6;
-      font-family: logoFont;
-    }
+  .non-side {
+    margin-left: -100vw;
+    height: 100vh;
+    width: 100vw;
+    transition: margin-left .5s;
+    background-color: #d6a242;
+  }
 
-    a:hover,a.active{
-      background: none;
-      color: #0082e6;
-    }
-    #check:checked ~ ul{
-      left: 0;
-      border-top: 1vh solid;
-      border-color: #d6a242;
-    }
-  } */
+
+  .visible.sidebar {
+    transition: margin-left .5s;
+  }
+}

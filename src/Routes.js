@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import React from "react";
 import App from "./App";
 import Menu from "./Menu";
+import Construction from "./Construction";
 
 const Router = () => {
     return (

@@ -1,14 +1,42 @@
 import React from "react";
 import './construction.css'
+import Header from "./Header";
+import Nav from "./Nav";
+import './Nav.css'
+import { useState } from "react";
 
 const Construction = () => {
+    const [visible, setVisible] = useState(false);
+
     return (
         <div className='construction-wrapper'>
-            <div className='header-wrapper'>
-                <div className='title text'>
-                    Tacos Traviesas
-                </div>
+            <div className='nav-container-one'>
+          <div className='nav-hamburger' onClick={() => setVisible(!visible)}>
+              <div className='nav-hamburger-line'></div>
+              <div className='nav-hamburger-line'></div>
+              <div className='nav-hamburger-line'></div>
+          </div>
+          <div className={visible ? 'nav' : 'nav invisible'}>
+              <div className='nav-title text'>
+                  Tacos Traviesas
+              </div>
+              <div className='nav-links'>
+                  <div className='nav-link text'>
+                      <a href='/'>Home</a>
+                  </div>
+                  <div className='nav-link text'>
+                      <a href='/menu'>Menu</a>
+                  </div>
+                  <div className='nav-link text'>
+                      <a href='/'>About</a>
+                  </div>
+                  <div className='nav-link text'>
+                      <a href='/'>Contact</a>
+                  </div>
+              </div>
             </div>
+          </div>
+            <Header/>
             <div className='top-div'>
                 <div className='blurb-wrapper'>
                     <div className='blurb'>Tacos Traviesas, An Authentic Mexican Taco Truck Offering Fresh-Made Corn Tortillas Daily</div>

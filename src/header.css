@@ -30,8 +30,9 @@
     }
   
     .header-wrapper {
+      padding-top: 1rem;
       min-width: 100vw;
-      height: 15vh;
+      height: 10vh;
       align-items: center;
       background-color: #a6dfce;
       display: flex;

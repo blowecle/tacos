@@ -18,6 +18,10 @@ src: url('../public/HandCraftedARegular.ttf');
     height: 200vh;
   }
 
+  .wrapper {
+    margin: 0 auto;
+  }
+
   .content-header {
     font-family: verdanaBold;
     font-size: 3rem;
@@ -31,6 +35,37 @@ src: url('../public/HandCraftedARegular.ttf');
     padding: 5px;
   }
 
+  .content-body-about {
+    font-family: verdana;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .menu-item {
+    font-size: 2rem;
+    text-align: center;
+    margin: 2vh;
+  }
+
+  .lime {
+    text-align: center;
+    margin: 2vh;
+    font-size: 1.5rem;
+  }
+
+  .sides {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2vh;
+  }
+  .item-description {
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2vw;
+  }
+
   .logo {
     background-color: #a6dfce;
     height: 100vh;
@@ -41,7 +76,6 @@ src: url('../public/HandCraftedARegular.ttf');
   }
 
   .slider {
-    margin-top: 5vh;
     width: 100vw;
     height: 100%;
     overflow: hidden;
@@ -75,24 +109,21 @@ src: url('../public/HandCraftedARegular.ttf');
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 5vh;
   }
 
   .one {
-    background-color: #d6a242;
+
   }
 
   .two {
-    background-color: #d0342c;
+    background-color: #d6a242;
   }
 
   .three {
-    background-color: rgb(0, 0, 160);
-    color: white;
+    background-color: #d6a242;
   }
 
   .image {
-    margin-top: 5vh;
     width: 100vw;
   }
 }

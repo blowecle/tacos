@@ -34,7 +34,7 @@
       min-width: 100vw;
       height: 10vh;
       align-items: center;
-      background-color: #a6dfce;
+      background-color: rgb(166, 223, 206, .5);
       display: flex;
       justify-content: center;
     }
@@ -101,38 +101,6 @@
       font-style: bold;
       font-family: logoFont;
       padding: 1rem;
-    }
-  
-    .slider {
-      margin-top: 5vh;
-      width: 100vw;
-      height: 100%;
-      overflow: hidden;
-    }
-      
-    .slides {
-      display: flex;
-      flex-direction: row;
-      width: 400%;
-  
-      animation: slide 14s ease-in infinite;
-    }
-      
-    .slide img {
-      width: 100vw;
-      height: 100%;
-    }
-      
-    @keyframes slide {
-      0% { margin-left: 0;}
-      21% {margin-left: 0;}
-      25% {margin-left: -100%;}
-      46% {margin-left: -100%;}
-      50% {margin-left: -200%;}
-      71% {margin-left: -200%;}
-      75% {margin-left: -300%;}
-      95% {margin-left: -300%;}
-      100% {margin-left: 0;}
     }
   
     .text {

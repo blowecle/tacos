@@ -61,11 +61,9 @@ h3 {
 }
 
 .nav-hamburger {
-  margin-left: 1vw;
-  margin-top: 4vh;
+  margin-left: 90vw;
+  margin-top: 6vh;
   z-index: 10;
-  position: absolute;
-  left: 0;
 }
 
 .sidebar-contents {

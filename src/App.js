@@ -17,7 +17,7 @@ function App() {
 
   const handleClick = (ref) => {
     if (ref.current) {
-      const headerHeight = 0.2 * window.innerHeight;
+      const headerHeight = 0.201 * window.innerHeight;
       const elementTopOffset = ref.current.getBoundingClientRect().top;
       const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
   
@@ -53,7 +53,7 @@ function App() {
             </div>
         </div>
       <Header/>
-      <div className='logo'>LOGO</div>
+      <div className='logo text'>Tacos Traviesas</div>
       <div className='content one'>
         <div ref={ref1} className='content-header'>MENU</div>
         <div className='content-body'>Etiam nec ipsum libero. Maecenas eu mi iaculis, blandit magna nec, pretium augue. Donec ut laoreet mauris. Praesent varius nibh mauris, at auctor neque sodales eget. Vestibulum lacus ipsum, posuere a maximus at, luctus et odio. Nunc eget elit libero. Etiam purus libero, efficitur et sem in, feugiat tempus lectus. Phasellus et pharetra risus.</div>

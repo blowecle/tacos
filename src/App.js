@@ -17,7 +17,7 @@ function App() {
 
   const handleClick = (ref) => {
     if (ref.current) {
-      const headerHeight = 0.201 * window.innerHeight;
+      const headerHeight = 0.15 * window.innerHeight;
       const elementTopOffset = ref.current.getBoundingClientRect().top;
       const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
   

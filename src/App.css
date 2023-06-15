@@ -32,14 +32,12 @@ src: url('../public/HandCraftedARegular.ttf');
     font-family: verdana;
     font-size: 2rem;
     text-align: center;
-    padding: 5px;
   }
 
   .content-body-about {
     font-family: verdana;
     font-size: 1.5rem;
     text-align: center;
-    padding: 5px;
   }
 
   .menu-item {
@@ -63,8 +61,7 @@ src: url('../public/HandCraftedARegular.ttf');
     font-style: italic;
     font-size: 1.5rem;
     text-align: center;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    
   }
 
   .logo-wrapper {
@@ -82,6 +79,7 @@ src: url('../public/HandCraftedARegular.ttf');
   }
 
   .slider {
+    padding-top: 2vh;
     width: 100vw;
     height: 100%;
     overflow: hidden;
@@ -114,22 +112,44 @@ src: url('../public/HandCraftedARegular.ttf');
   .content {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
   }
 
-  .one {
-
+  .menu {
+    background-color: rgb(72, 82, 217);
+    color: white;
+    border: rgb(183, 68, 61) solid 5px;
   }
 
-  .two {
-    background-color: #d6a242;
+  .about {
+    background-color: rgb(147, 191, 190);
+    color: white;
+    border: rgb(183, 68, 61) solid 5px;
   }
 
-  .three {
-    background-color: #d6a242;
+  .catering {
+    background-color: rgb(52, 82, 155);
+    border: rgb(183, 68, 61) solid 5px;
+    color: white;
   }
 
   .image {
     width: 100vw;
+  }
+
+  .zoe-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .zoe-content {
+    border: rgb(183, 68, 61) solid 5px;
+    color: white;
+  }
+
+  .zoe {
+    margin-top: 2vh;
+    width: 90vw;
   }
 }

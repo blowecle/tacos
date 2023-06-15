@@ -169,9 +169,7 @@ src: url('../public/HandCraftedARegular.ttf');
   }
 
   .about {
-    background-color: rgb(147, 191, 190);
     color: white;
-    border-top: rgb(183, 68, 61) solid 5px;
   }
 
   .catering {

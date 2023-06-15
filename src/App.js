@@ -93,30 +93,34 @@ function App() {
               </div>
           </div>
         </div>
+        <div className='menu-wrapper'>
           <div ref={ref1} className='content-header-menu'>MENU</div>
           <div className='menu-item'>Cochinita Pibil</div>
-          <div className='item-description'>Achiote Braised Pork Belly, Pickled Onion, Radish</div>
+          <div className='item-description'>achiote braised pork belly, pickled onion, radish</div>
           <div className='menu-item'>Barbacoa</div>
-          <div className='item-description'>Braised Beef Brisket in Adobo, Onion, Cilantro, Radish</div>
+          <div className='item-description'>braised beef brisket in adobo, onion, cilantro, radish</div>
           <div className='menu-item'>Roasted Cauliflower</div>
-          <div className='item-description'>with Smokey Chipotle, Radish</div>
+          <div className='item-description'>with smokey chipotle, radish</div>
           <div className='menu-item'>Chicken or Bean Tostada</div>
-          <div className='item-description'>Black Bean, Cabbage, Radish, Onion, Cilantro, Crema, Cotija</div>
+          <div className='item-description'>black bean, cabbage, radish, onion, cilantro, crema, cotija</div>
           <div className='content-header sides'>Sides</div>
           <div className='menu-item'>{`Arroz (tasty rice!)`}</div>
-          <div className='menu-item'>{`Refried Beans (with Cotija)`}</div>
+          <div className='menu-item'>{`Refried Beans (with cotija)`}</div>
           <div className='lime'>Everything Served with Lime!</div>
         </div>
+        </div>
         <div className='content catering'>
-          <div ref={ref3} className='content-header'>CATERING</div>
+          <div className='cater-wrapper'>
+            <div ref={ref3} className='content-header'>CATERING</div>
             <div className='content-body'>This is where the information about catering goes.  We have lots of catering.  Even our catering has catering.  Tortillas?  You know it.  Best fucking tortillas in all of Ireland, dawg.</div>
+          </div>
         </div>
         <div className='content zoe-content'>
         <div className='zoe-wrapper'>
           <img className='zoe' src='https://res.cloudinary.com/dyjzfdguj/image/upload/v1684960996/tacos/70263335613__B49FC130-29C9-45F8-BE55-3D82F2B9DCC7_e3xsaq.jpg' alt='zoe'/>
         </div>
-          <div ref={ref4} className='content-header'>HOW TO GET YOUR TACOS</div>
-            <div className='content-body'>Check out our Twitter and Instagram for hours and locations!</div>
+          <div ref={ref4} className='content-header-taco'>HOW TO GET YOUR TACOS</div>
+            <div className='content-body-taco'>Check out our Twitter and Instagram for hours and locations!</div>
             <div className='social-wrapper'>
               <a href='https://www.instagram.com/tacostraviesas/'>
                 <img className='social' src='https://res.cloudinary.com/dyjzfdguj/image/upload/v1686836033/tacos/Instagram_icon_hl60eh.png' alt='insta'/>

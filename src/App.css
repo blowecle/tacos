@@ -29,7 +29,22 @@ src: url('../public/HandCraftedARegular.ttf');
     padding: 2vh;
   }
 
+  .content-header-taco {
+    font-family: verdanaBold;
+    font-size: 2.7rem;
+    text-align: center;
+    padding: 2vh;
+  }  
+
   .content-body {
+    font-family: verdana;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 2vh;
+  }
+
+  .content-body-taco {
+    width: 80vw;
     font-family: verdana;
     font-size: 1rem;
     text-align: center;
@@ -39,13 +54,13 @@ src: url('../public/HandCraftedARegular.ttf');
   .social-wrapper {
     display: flex;
     width: 90vw;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 2vh;
   }
 
   .social {
-    width: 20vw;
-    height: 20vw;
+    width: 10vw;
+    height: 10vw;
   }
 
   .content-body-about {
@@ -72,9 +87,13 @@ src: url('../public/HandCraftedARegular.ttf');
     font-family: verdanaBold;
   }
 
+  .menu-wrapper {
+    width: 90vw
+  }
+
   .lime {
     text-align: center;
-    margin: 2vh;
+    margin: 4vh;
     font-size: 1.5rem;
     font-style: italic;
   }
@@ -145,22 +164,26 @@ src: url('../public/HandCraftedARegular.ttf');
   .menu {
     background-color: rgb(72, 82, 217);
     color: white;
-    border: rgb(183, 68, 61) solid 5px;
+    border-top: rgb(183, 68, 61) solid 5px;
+    border-bottom: rgb(183, 68, 61) solid 5px;
   }
 
   .about {
     background-color: rgb(147, 191, 190);
     color: white;
-    border-right: rgb(183, 68, 61) solid 5px;
-    border-left: rgb(183, 68, 61) solid 5px;
     border-top: rgb(183, 68, 61) solid 5px;
   }
 
   .catering {
     background-color: rgb(52, 82, 155);
-    border-left: rgb(183, 68, 61) solid 5px;
-    border-right: rgb(183, 68, 61) solid 5px;
     color: white;
+  }
+
+  .cater-wrapper {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 
   .image {
@@ -173,7 +196,7 @@ src: url('../public/HandCraftedARegular.ttf');
   }
 
   .zoe-content {
-    border: rgb(183, 68, 61) solid 5px;
+    border-top: rgb(183, 68, 61) solid 5px;
     color: white;
   }
 

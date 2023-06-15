@@ -18,7 +18,11 @@ function App() {
   const ref4 = useRef(null);
 
   useEffect(() => {
+    const onLoad = () => {
     window.scrollTo(0, 0)
+    }
+
+    setTimeout(onLoad, 1000)
   }, [])
 
   const handleClick = (ref) => {

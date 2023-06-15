@@ -5,6 +5,7 @@ import Footer from './Footer';
 import './Footer.css'
 import Header from './Header';
 import tortillas from './images/taco_hand_1_efvqt1.jpg'
+import { Link } from 'react-router-dom';
 
 function App() {
 
@@ -61,7 +62,7 @@ function App() {
         <div className='content about'>
           <div className='content-wrapper'>
             <div ref={ref2} className='content-header'>ABOUT US</div>
-            <div className='content-body-about'>Morbi dignissim, augue gravida viverra feugiat, orci eros malesuada justo, luctus tincidunt magna lacus sit amet massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque interdum ipsum in nulla iaculis, a euismod diam cursus. Duis a tellus in massa vestibulum pulvinar vitae a arcu. Etiam eget dictum felis. Duis ornare pulvinar elementum. Phasellus aliquet turpis nisl, id auctor augue porttitor in. Morbi pharetra volutpat tempus. Ut facilisis cursus nulla at pulvinar. Maecenas dignissim auctor tortor in viverra. Vivamus porta velit quis purus rhoncus, vel congue lorem pellentesque.</div>
+            <div className='content-body-about'>Zoe is a culinary expert with a wealth of experience in the food industry. With years of dedicated work in various high-end establishments, Zoe has honed her skills and developed a deep understanding of authentic Mexican cuisine. Her passion for creating flavorful dishes using traditional recipes and fresh ingredients has made her a renowned figure in the culinary world, and her rich industry experience shines through in every bite of her delicious creations.</div>
           </div>
         </div>
         <div className='content menu'>
@@ -84,7 +85,7 @@ function App() {
               </div>
           </div>
         </div>
-          <div ref={ref1} className='content-header'>MENU</div>
+          <div ref={ref1} className='content-header-menu'>MENU</div>
           <div className='menu-item'>Cochinita Pibil</div>
           <div className='item-description'>Achiote Braised Pork Belly, Pickled Onion, Radish</div>
           <div className='menu-item'>Barbacoa</div>
@@ -93,7 +94,7 @@ function App() {
           <div className='item-description'>with Smokey Chipotle, Radish</div>
           <div className='menu-item'>Chicken or Bean Tostada</div>
           <div className='item-description'>Black Bean, Cabbage, Radish, Onion, Cilantro, Crema, Cotija</div>
-          <div className='sides'>Sides</div>
+          <div className='content-header sides'>Sides</div>
           <div className='menu-item'>{`Arroz (tasty rice!)`}</div>
           <div className='menu-item'>{`Refried Beans (with Cotija)`}</div>
           <div className='lime'>Everything Served with Lime!</div>
@@ -107,7 +108,15 @@ function App() {
           <img className='zoe' src='https://res.cloudinary.com/dyjzfdguj/image/upload/v1684960996/tacos/70263335613__B49FC130-29C9-45F8-BE55-3D82F2B9DCC7_e3xsaq.jpg' alt='zoe'/>
         </div>
           <div ref={ref4} className='content-header'>HOW TO GET YOUR TACOS</div>
-            <div className='content-body'>This is where we put some information about Zoe.  She is a baller chef and has an awesome tattoo that says 'fuck brunch' because, well, fuck brunch!</div>
+            <div className='content-body'>Check out our Twitter and Instagram for hours and locations!</div>
+            <div className='social-wrapper'>
+              <a href='https://www.instagram.com/tacostraviesas/'>
+                <img className='social' src='https://res.cloudinary.com/dyjzfdguj/image/upload/v1686836033/tacos/Instagram_icon_hl60eh.png' alt='insta'/>
+              </a>
+              <a href='https://twitter.com/tacostraviesas1'>
+                <img className='social' src='https://res.cloudinary.com/dyjzfdguj/image/upload/v1686836033/tacos/Twitter_icon_n10mmy.png' alt='twitter'/>
+              </a>
+            </div>
         </div>
       </div>
     </div>

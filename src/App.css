@@ -24,42 +24,68 @@ src: url('../public/HandCraftedARegular.ttf');
 
   .content-header {
     font-family: verdanaBold;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
+    padding: 2vh;
   }
 
   .content-body {
     font-family: verdana;
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
+    padding-bottom: 2vh;
+  }
+
+  .social-wrapper {
+    display: flex;
+    width: 90vw;
+    justify-content: space-around;
+    padding: 2vh;
+  }
+
+  .social {
+    width: 20vw;
+    height: 20vw;
   }
 
   .content-body-about {
     font-family: verdana;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
+    width: 90vw;
+    padding-bottom: 5vw;
+  }
+
+  .content-header-menu {
+    font-family: verdanaBold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2vh;
+    text-decoration: underline;
   }
 
   .menu-item {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     margin-top: 2vh;
+    padding: 2vh;
+    font-family: verdanaBold;
   }
 
   .lime {
     text-align: center;
     margin: 2vh;
     font-size: 1.5rem;
+    font-style: italic;
   }
 
   .sides {
-    font-size: 2.5rem;
     text-align: center;
-    margin: 2vh;
+    text-decoration: underline;
   }
   .item-description {
     font-style: italic;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
     
   }
@@ -125,12 +151,15 @@ src: url('../public/HandCraftedARegular.ttf');
   .about {
     background-color: rgb(147, 191, 190);
     color: white;
-    border: rgb(183, 68, 61) solid 5px;
+    border-right: rgb(183, 68, 61) solid 5px;
+    border-left: rgb(183, 68, 61) solid 5px;
+    border-top: rgb(183, 68, 61) solid 5px;
   }
 
   .catering {
     background-color: rgb(52, 82, 155);
-    border: rgb(183, 68, 61) solid 5px;
+    border-left: rgb(183, 68, 61) solid 5px;
+    border-right: rgb(183, 68, 61) solid 5px;
     color: white;
   }
 

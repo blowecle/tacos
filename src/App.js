@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import './App.css';
 import './Nav.css'
 import Footer from './Footer';
@@ -16,6 +16,10 @@ function App() {
   const ref2 = useRef(null);
   const ref3 = useRef(null);
   const ref4 = useRef(null);
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   const handleClick = (ref) => {
     if (ref.current) {

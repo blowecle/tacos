@@ -4,6 +4,7 @@ import './Nav.css'
 import Footer from './Footer';
 import './Footer.css'
 import Header from './Header';
+import tortillas from './images/taco_hand_1_efvqt1.jpg'
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
 
   const handleClick = (ref) => {
     if (ref.current) {
-      const headerHeight = 0.17 * window.innerHeight;
+      const headerHeight = 0.09 * window.innerHeight;
       const elementTopOffset = ref.current.getBoundingClientRect().top;
       const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
   
@@ -53,12 +54,13 @@ function App() {
             </div>
         </div>
       <Header/>
-      <div className='logo text'>Tacos Traviesas</div>
+      <div className='logo-wrapper'>
+        <img className='logo' src={tortillas} alt='tortillas'/>
+      </div>
       <div className='content two'>
         <div ref={ref2} className='content-header'>ABOUT US</div>
         <div className='content-body-about'>Morbi dignissim, augue gravida viverra feugiat, orci eros malesuada justo, luctus tincidunt magna lacus sit amet massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque interdum ipsum in nulla iaculis, a euismod diam cursus. Duis a tellus in massa vestibulum pulvinar vitae a arcu. Etiam eget dictum felis. Duis ornare pulvinar elementum. Phasellus aliquet turpis nisl, id auctor augue porttitor in. Morbi pharetra volutpat tempus. Ut facilisis cursus nulla at pulvinar. Maecenas dignissim auctor tortor in viverra. Vivamus porta velit quis purus rhoncus, vel congue lorem pellentesque.</div>
       </div>
-      <img className='tortillas image' src='https://res.cloudinary.com/dyjzfdguj/image/upload/v1686322908/tacos/taco_hand_tpuhpn.jpg' alt='tortillas'/>
       <div className='content one'>
         <div ref={ref1} className='content-header'>MENU</div>
         <div className='menu-item'>Cochinita Pibil</div>

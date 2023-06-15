@@ -67,13 +67,18 @@ src: url('../public/HandCraftedARegular.ttf');
     padding-right: 2vw;
   }
 
-  .logo {
+  .logo-wrapper {
     background-color: #a6dfce;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50px;
+  }
+
+  .logo {
+
+    width: 100%;
   }
 
   .slider {

@@ -63,17 +63,19 @@ function App() {
                   </div>
               </div>
           </div>
-        <Header/>
+          <div className="desktop-header-wrapper">
+            <Header show={false}/>
+          </div>
         <div className='logo-wrapper'>
           <img className='logo' src={tortillas} alt='tortillas'/>
         </div>
         <div className='content about'>
           <div className='content-wrapper'>
-            <div ref={ref2} className='content-header'>ABOUT US</div>
+            <div ref={ref2} className='content-header-about'>ABOUT US</div>
             <div className='content-body-about'>Zöe Salcedo is a culinary expert with a wealth of experience in the food industry. With years of dedicated work in various high-end establishments, Zoe has honed her skills and developed a deep understanding of authentic Mexican cuisine. Her passion for creating flavorful dishes using traditional recipes and fresh ingredients has made her a renowned figure in the culinary world, and her rich industry experience shines through in every bite of her delicious creations.</div>
           </div>
         </div>
-        <div className='content menu'>
+        <div className='content mobile-menu'>
         <div className='slider'>
           <div className='slides'>
               <div className='slide'>
@@ -112,7 +114,7 @@ function App() {
         <div className='content catering'>
           <div className='cater-wrapper'>
             <div ref={ref3} className='content-header'>CATERING</div>
-            <div className='content-body'>This is where the information about catering goes.  We have lots of catering.  Even our catering has catering.  Tortillas?  You know it.  Best fucking tortillas in all of Ireland, dawg.</div>
+            <div className='content-body cater-body'>This is where the information about catering goes.  We have lots of catering.  Even our catering has catering.  Tortillas?  You know it.  Best fucking tortillas in all of Ireland, dawg.</div>
           </div>
         </div>
         <div className='content zoe-content'>

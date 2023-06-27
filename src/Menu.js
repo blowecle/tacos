@@ -1,40 +1,32 @@
-import React from "react";
-import './App.css'
-import Footer from "./Footer";
+import React, { useEffect } from "react";
+import Header from "./Header";
 
 const Menu = () => {
-    return (
-        <div className='menu-wrapper'>
-            <div className='menu-contents'>
-            <div className='title'>BREAKFAST</div>
-                <div className='menu-item'>PAPAS CON RAJAS 
-                    <div className='menu-item-contents'>Moy Hill Farms Eggs, Potatoes and Peppers</div>
-                </div>
-                <div className='title'>TACOS</div>
-                <div className='menu-item'>COCHINITA PIBIL 
-                    <div className='menu-item-contents'>Achiote Braised Pork Belly, Pickled Onion, Radish</div>
-                </div>
-                <div className='menu-item'>BARBACOA 
-                    <div className='menu-item-contents'>Braised Beef Brisket in Adobo, Onion, Radish</div>
-                </div>
-                <div className='menu-item'>CAMOTE 
-                    <div className='menu-item-contents'>Sweet Potato, Black Bean, Radish, Cabbage, Cilantro, Salsa Macha</div>
-                </div>
-                <div className='title'>TOSTADAS</div>
-                <div className='menu-item'>CHICKEN or BEAN
-                    <div className='menu-item-contents'>Blackbean, Radish, Crema, Cabbage, Cotija, Cilantro</div>
-                </div>
-                <div className='title'>SOUP</div>
-                <div className='menu-item'>POZOLE - PORKBELLY IN PEPPPER BROTH
-                    <div className='menu-item-contents'>Hominy, Cabbage, Raddish, Onion</div>
-                </div>
-                <div className='title'>SIDES</div>
-                <div className='menu-item'>REFRIED BEANS
-                </div>
-                <div className='menu-item'>AROSE - RED RICE
-                </div>
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    return (<>
+            <Header show={true}/>
+            <div className='menu content'>
+            <div className='menu-wrapper'>
+            <div className='content-header-menu'>MENU</div>
+            <div className='menu-item'>Cochinita Pibil</div>
+            <div className='item-description'>achiote braised pork belly, pickled onion, radish</div>
+            <div className='menu-item'>Barbacoa</div>
+            <div className='item-description'>braised beef brisket in adobo, onion, cilantro, radish</div>
+            <div className='menu-item'>Roasted Cauliflower</div>
+            <div className='item-description'>with smokey chipotle, radish</div>
+            <div className='menu-item'>Chicken or Bean Tostada</div>
+            <div className='item-description'>black bean, cabbage, radish, onion, cilantro, crema, cotija</div>
+            <div className='content-header sides'>Sides</div>
+            <div className='menu-item'>{`Arroz (tasty rice!)`}</div>
+            <div className='menu-item'>{`Refried Beans (with cotija)`}</div>
+            <div className='lime'>Everything Served with Lime!</div>
             </div>
-        </div>
+            </div>
+        </>
     )
 }
 

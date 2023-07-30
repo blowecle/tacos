@@ -7,12 +7,10 @@ export default function EmailForm() {
         <form netlify>
     <input
       type="email"
-      value={email}
       placeholder="Your email"
       required
     />
     <textarea
-      value={message}
       placeholder="Your message"
       required
     ></textarea>

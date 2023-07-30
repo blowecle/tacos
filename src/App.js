@@ -6,6 +6,7 @@ import './Footer.css'
 import Header from './Header';
 import tortillas from './images/taco_hand_1_efvqt1.jpg'
 import { Link } from 'react-router-dom';
+import EmailForm from './EmailForm';
 
 function App() {
 
@@ -72,7 +73,12 @@ function App() {
         <div className='content about'>
           <div className='content-wrapper'>
             <div ref={ref2} className='content-header-about'>ABOUT US</div>
-            <div className='content-body-about'>Zöe Salcedo is a culinary expert with a wealth of experience in the food industry. With years of dedicated work in various high-end establishments, Zoe has honed her skills and developed a deep understanding of authentic Mexican cuisine. Her passion for creating flavorful dishes using traditional recipes and fresh ingredients has made her a renowned figure in the culinary world, and her rich industry experience shines through in every bite of her delicious creations.</div>
+            <div className='content-body-about'>Tacos Traviesas (Trah-vyeh-sah) is a nod to all the Traviesas in our lives, our moms, our sisters, daughters, friends and nanas. We take traditional family recipes and meld them with new techniques, flavors and ideas to bring the best Mexican food to West Ireland. Our founders were born and raised in Texas and California with family all throughout the American Southwest and Mexico. 
+              <br/><br/>
+              We combine flavors from the Yucatan Peninsula, Northern Mexico, California, Texas and everything in between, showcasing the smells, flavors, and beauty of Mexican Cuisine. We source heiloom maize and bean from Mexico while seeking to source the rest of our menu from local farmers, butchers and grocers. 
+              <br/><br/>
+              Our aim is to bridge cultures through food, sharing what brings us the most joy in our lives: tacos. 
+            </div>
           </div>
         </div>
         <div className='content mobile-menu'>
@@ -97,24 +103,15 @@ function App() {
         </div>
         <div className='menu-wrapper'>
           <div ref={ref1} className='content-header-menu'>MENU</div>
-          <div className='menu-item'>Cochinita Pibil</div>
-          <div className='item-description'>achiote braised pork belly, pickled onion, radish</div>
-          <div className='menu-item'>Barbacoa</div>
-          <div className='item-description'>braised beef brisket in adobo, onion, cilantro, radish</div>
-          <div className='menu-item'>Roasted Cauliflower</div>
-          <div className='item-description'>with smokey chipotle, radish</div>
-          <div className='menu-item'>Chicken or Bean Tostada</div>
-          <div className='item-description'>black bean, cabbage, radish, onion, cilantro, crema, cotija</div>
-          <div className='content-header sides'>Sides</div>
-          <div className='menu-item'>{`Arroz (tasty rice!)`}</div>
-          <div className='menu-item'>{`Refried Beans (with cotija)`}</div>
-          <div className='lime'>Everything Served with Lime!</div>
+          <div>menu content</div>
         </div>
         </div>
         <div className='content catering'>
           <div className='cater-wrapper'>
             <div ref={ref3} className='content-header'>CATERING</div>
-            <div className='content-body cater-body'>This is where the information about catering goes.  We have lots of catering.  Even our catering has catering.  Tortillas?  You know it.  Best fucking tortillas in all of Ireland, dawg.</div>
+            <div className='content-body cater-body'>
+              <EmailForm />
+            </div>
           </div>
         </div>
         <div className='content zoe-content'>

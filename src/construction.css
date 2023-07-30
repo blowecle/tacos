@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   body {
     background-color: #a6dfce;
   }
@@ -21,7 +21,7 @@
     padding: 1rem;
   }
 
-  /* .header-wrapper {
+  .header-wrapper {
     min-width: 100vw;
     height: 20vh;
     display: flex;
@@ -29,7 +29,7 @@
     align-items: center;
     background-color: #a6dfce;
     border-bottom: 2px solid #d0342c;
-  } */
+  }
 
   .truck-image {
     margin-top: 5vh;
@@ -341,4 +341,4 @@ a {
 
 .about-text {
   min-height: 100vh;
-}
+} */

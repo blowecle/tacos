@@ -2,7 +2,6 @@ import React from "react";
 import './construction.css'
 import Header from "./Header";
 import Nav from "./Nav";
-import './Nav.css'
 import { useState } from "react";
 
 const Construction = () => {

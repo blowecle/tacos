@@ -1,4 +1,5 @@
 import React from "react";
+import './Nav.css'
 import { useState } from "react";
 
 const Nav = ({handleClick, ref1, ref2, ref3, ref4}) => {

@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import './App.css';
+import './Nav.css'
 import Footer from './Footer';
 import './Footer.css'
 import Header from './Header';

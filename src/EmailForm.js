@@ -11,11 +11,13 @@ export default function EmailForm() {
         value="contact"
         />
             <input
+            name="email"
             type="email"
             placeholder="Your email"
             required
             />
             <textarea
+            name="message"
             placeholder="Your message"
             required
             ></textarea>

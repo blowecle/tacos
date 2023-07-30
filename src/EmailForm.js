@@ -4,7 +4,7 @@ export default function EmailForm() {
 
 
       return (
-        <form data-netlify="true">
+        <form method="POST" data-netlify="true">
     <input
       type="email"
       placeholder="Your email"

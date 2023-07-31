@@ -15,9 +15,19 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   src: url('../public/Fonts/Verdana-bold.ttf')
 }
 
+.content-header-chef {
+  color: #d0342c;
+}
+
 /* DESKTOP */
-@media screen and (min-width: 601px){
-  
+@media screen and (min-width: 801px){
+  .content-header-chef{
+    font-size: 2rem;
+    font-style: bold;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
   .content-header-menu {
     font-family: verdanaBold;
     font-size: 2rem;
@@ -100,6 +110,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .logo-wrapper {
+    background-color: #93bfbe;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,10 +146,10 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     text-align: center;
     width: 100%;
     align-items: center;
+    margin-bottom: 5%;
   }
 
   .about {
-    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -150,9 +161,12 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
 
 /* MOBILE */
-@media screen and (max-width: 600px){
-  .about-text {
-    height: 200vh;
+@media screen and (max-width: 800px){
+  .content-header-chef{
+    font-size: 1.3rem;
+    font-style: bold;
+    text-align: center;
+    margin-bottom: 5%;
   }
 
   .content-header {
@@ -211,7 +225,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     font-size: 1rem;
     text-align: center;
     width: 90vw;
-    margin-bottom: 4vh;
+    margin-bottom: 5%;
   }
 
   .content-header-menu {
@@ -254,7 +268,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .logo-wrapper {
-    background-color: #a6dfce;
+    background-color: #93bfbe;
     height: 100vh;
     display: flex;
     justify-content: center;

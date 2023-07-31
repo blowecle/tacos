@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .nav {
     margin-left: 15px;
     margin-top: 15px;
@@ -60,6 +60,7 @@ h3 {
 }
 
 .nav-wrapper {
+  
   position: fixed;
   z-index: 100;
 }

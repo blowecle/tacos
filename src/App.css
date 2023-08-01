@@ -575,6 +575,14 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     align-items: center;
   }
 
+  button{
+    background-color: #b7443d;
+    color: white;
+    border: none;
+    width: 30%;
+    font-size: 20px;
+  }
+
   .about {
     color: white;
   }

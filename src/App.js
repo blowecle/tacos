@@ -74,10 +74,10 @@ function App() {
           <div className='overlay1 overlay'>
             <img src={image1} className='overlay-image1' alt='image1'/>
           </div>
-          <div className='overlay2 overlay'>
+          <div className='overlay2 overlay-bottom-large'>
             <img src={image2} className='overlay-image2' alt='image2'/>
           </div>
-          <div className='overlay3 overlay'>
+          <div className='overlay3 overlay-bottom'>
             <img src={image3} className='overlay-image3' alt='image3'/>
           </div>
         </div>

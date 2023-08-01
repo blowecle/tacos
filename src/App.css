@@ -348,26 +348,26 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .overlay-image1{
-    width: 200%;
-    height: 200%;
+    width: 220%;
+    height: 220%;
     object-fit: cover;
     position: absolute;
-    top: -100%;
-    left: -60%;
+    top: -120%;
+    left: -80%;
   }
 
   .overlay2{
     top: 25%;
-    right: -5%;
+    right: -7%;
   }
 
   .overlay-image2{
-    width: 200%;
-    height: 200%;
+    width: 180%;
+    height: 180%;
     object-fit: cover;
     position: absolute;
-    left: -60%;
-    top: -40%;
+    left: -50%;
+    top: -30%;
   }
 
   .overlay3{
@@ -509,7 +509,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .menu-wrapper {
-    margin-top: -20%;
+    margin-top: -50%;
     width: 90vw
   }
 
@@ -589,7 +589,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
   .catering {
     color: white;
-    margin-top: 30%;
+    margin-top: 15%;
   }
 
   .cater-wrapper {

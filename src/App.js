@@ -10,6 +10,9 @@ import EmailForm from './EmailForm';
 import image1 from './images/IMG_0448.jpeg'
 import image2 from './images/IMG_0630.jpeg'
 import image3 from './images/IMG_0638.jpeg'
+import image4 from './images/IMG_0781.jpeg'
+import image5 from './images/IMG_0945.jpeg'
+import image6 from './images/IMG_1897.jpeg'
 
 
 function App() {
@@ -21,7 +24,6 @@ function App() {
   const ref1 = useRef(null);
   const ref2 = useRef(null);
   const ref3 = useRef(null);
-  const ref4 = useRef(null);
 
   useEffect(() => {
     const onLoad = () => {
@@ -33,7 +35,22 @@ function App() {
 
   const handleClick = (ref) => {
     if (ref.current) {
-      const headerHeight = 0.10 * window.innerHeight;
+      const headerHeight = 0.15 * window.innerHeight;
+      const elementTopOffset = ref.current.getBoundingClientRect().top;
+      const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+  
+      if(visible) setVisible(false);
+
+      window.scrollTo({
+        top: scrollPosition + elementTopOffset - headerHeight,
+        behavior: 'smooth',
+      });
+    }
+  };
+
+  const handleClick2 = (ref) => {
+    if (ref.current) {
+      const headerHeight = 0.342 * window.innerHeight;
       const elementTopOffset = ref.current.getBoundingClientRect().top;
       const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
   
@@ -63,9 +80,8 @@ function App() {
 
                   <div className="sidebar-contents">
                     <div onClick={() => handleClick(ref2)}>About Us</div>
-                    <div onClick={() => handleClick(ref1)}>Menu</div>
+                    <div onClick={() => handleClick2(ref1)}>Menu</div>
                     <div onClick={() => handleClick(ref3)}>Catering</div>
-                    <div onClick={() => handleClick(ref4)}>Info</div>
                   </div>
               </div>
           </div>
@@ -133,26 +149,30 @@ Outside of our taco truck, Zoë is so much more but she is also a mother to Beat
               </div>
           </div>
         </div>
+        <div ref={ref1}/>
         <div className='menu-wrapper'>
-          <div ref={ref1} className='content-header-menu'>MENU</div>
-          <div>Our menu changes often so please follow us on
+          <div className='content-header-menu'>MENU</div>
+          <div className='menu-content'>Our menu changes often so please follow us on<br/>
 instagram @TacosTraviesas</div>
         </div>
         </div>
-        <div className='content catering'>
+        <div ref={ref3} className='content catering'>
           <div className='cater-wrapper'>
-            <div ref={ref3} className='content-header'>CATERING INQUIRIES</div>
+            <div className='content-header-catering'>CATERING INQUIRIES</div>
+            <div className='catering-content'>
+            We would love to help you with your big events.<br/>
+Please fill out the form below and we will<br/>
+contact you as soon as possible.
+            </div>
             <div className='content-body cater-body'>
               <EmailForm />
             </div>
           </div>
         </div>
         <div className='content zoe-content'>
-        <div className='zoe-wrapper'>
-          <img className='zoe' src='https://res.cloudinary.com/dyjzfdguj/image/upload/v1684960996/tacos/70263335613__B49FC130-29C9-45F8-BE55-3D82F2B9DCC7_e3xsaq.jpg' alt='zoe'/>
-        </div>
-          <div ref={ref4} className='content-header-taco'>HOW TO GET YOUR TACOS</div>
-            <div className='content-body-taco'>Check out our Twitter and Instagram for hours and locations!</div>
+          <div className='content-header-taco'>HOW TO FIND US</div>
+            <div className='content-body-taco'>Our menu, location, times change frequently so<br/>
+please follow us on Instagram and Twitter.</div>
             <div className='social-wrapper'>
               <a href='https://www.instagram.com/tacostraviesas/'>
                 <img className='social' src='https://res.cloudinary.com/dyjzfdguj/image/upload/v1686836033/tacos/Instagram_icon_hl60eh.png' alt='insta'/>
@@ -161,6 +181,15 @@ instagram @TacosTraviesas</div>
                 <img className='social' src='https://res.cloudinary.com/dyjzfdguj/image/upload/v1686836033/tacos/Twitter_icon_n10mmy.png' alt='twitter'/>
               </a>
             </div>
+            <div className='overlay4 overlay-bottom-large'>
+            <img src={image4} className='overlay-image4' alt='image4'/>
+          </div>
+          <div className='overlay5 overlay'>
+            <img src={image5} className='overlay-image5' alt='image5'/>
+          </div>
+          <div className='overlay6 overlay-bottom'>
+            <img src={image6} className='overlay-image6' alt='image6'/>
+          </div>
         </div>
       </div>
     </div>

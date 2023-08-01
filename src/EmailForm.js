@@ -1,30 +1,33 @@
-
+import './emailform.css'
 
 export default function EmailForm() {
 
 
       return (
-        <form method="POST" data-netlify="true" name="contact">
+        <form method="POST" data-netlify="true" name="contact" className='contact-form'>
             <input
             type="hidden"
             name="form-name"
             value="contact"
             />
             <input
+            className='name-input'
             name="name"
             type="text"
             placeholder="Your name"
             required
             />
             <input
+            className='email-input'
             name="email"
             type="email"
             placeholder="Your email"
             required
             />
             <textarea
+            className='message-input'
             name="message"
-            placeholder="Your message"
+            placeholder="What can we do for you?"
             required
             ></textarea>
             <button type="submit">Send</button>

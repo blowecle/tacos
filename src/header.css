@@ -38,6 +38,7 @@
       background-image: url('./images/background.jpg');
       display: flex;
       justify-content: center;
+      z-index: 98;
     }
   
     .truck-image {

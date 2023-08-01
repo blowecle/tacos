@@ -59,11 +59,7 @@ h3 {
   height: 80px;
 }
 
-.nav-wrapper {
-  width: 100vw;
-  position: fixed;
-  z-index: 100;
-}
+
 
 .nav-hamburger {
   margin-left: 85%;

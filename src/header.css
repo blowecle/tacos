@@ -10,7 +10,8 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 15vh;
+    height: 10vh;
+    z-index: 99;
   }
   
   .header.fade-in {
@@ -28,7 +29,7 @@
     }
   
   .title {
-      font-size: 32px;
+      font-size: 24px;
       max-width: 63%;
     }
   
@@ -38,7 +39,6 @@
       background-image: url('./images/background.jpg');
       display: flex;
       justify-content: center;
-      z-index: 98;
     }
   
     .truck-image {
@@ -55,7 +55,7 @@
       font-size: 1.5rem;
       font-family: logoFont;
       margin-top: 5vh;
-      color: #d0342c;
+      color: #b7443d;
       text-align: center;
       padding-right: 1rem;
       padding-left: 1rem;
@@ -65,7 +65,7 @@
       font-size: 1.5rem;
       font-family: logoFont;
       margin-top: 5vh;
-      color: #d0342c;
+      color: #b7443d;
       margin-bottom: 5vh;
       text-align: center;
       padding-right: 1rem;
@@ -76,7 +76,7 @@
       font-size: 1.5rem;
       font-family: logoFont;
       margin-top: 5vh;
-      color: #d0342c;
+      color: #b7443d;
       margin-bottom: 5vh;
       text-align: center;
       padding-right: 1rem;
@@ -107,7 +107,7 @@
   
     .text {
       text-align: center;
-      color:#d0342c;
+      color:#b7443d;
       text-shadow: 1.5px 1.5px #d6a242;
       font-family: logoFont;
     }
@@ -149,7 +149,7 @@
     .desktop-link {
       font-size: 1.6rem;
       font-family: logoFont;
-      color: #d0342c;
+      color: #b7443d;
       text-shadow: 1.5px 1.5px #d6a242;
     }
 
@@ -216,7 +216,7 @@
   
     .text {
       text-align: center;
-      color:#d0342c;
+      color:#b7443d;
       text-shadow: 1.5px 1.5px #d6a242;
       font-family: logoFont;
     }
@@ -269,7 +269,7 @@
       font-size: 1.5rem;
       font-family: logoFont;
       margin-top: 5vh;
-      color: #d0342c;
+      color: #b7443d;
       text-align: center;
       display: flex;
       align-items: center;
@@ -283,7 +283,7 @@
       font-size: 1.5rem;
       font-family: logoFont;
       margin-top: 5vh;
-      color: #d0342c;
+      color: #b7443d;
       margin-bottom: 5vh;
       text-align: center;
       padding-right: 1rem;
@@ -295,7 +295,7 @@
       font-size: 1.5rem;
       font-family: logoFont;
       margin-top: 1vh;
-      color: #d0342c;
+      color: #b7443d;
       margin-bottom: 5vh;
       text-align: center;
       padding-right: 1rem;

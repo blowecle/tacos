@@ -4,8 +4,14 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className='footer'>
-            <div className='social-link-1 social'>Twitter</div>
-            <div className='social-link-2 social'>Instagram</div>
+            <div className='artist-wrapper'>
+                <div className='artist'>
+                    Website creation by Brandon Lowe
+                </div>
+                <div className='artist'>
+                    Design by Kelsey Edson
+                </div>
+            </div>
         </div>
     )
 }

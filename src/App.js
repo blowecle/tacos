@@ -66,25 +66,6 @@ function App() {
   return (
     <div className='wrapper'>
       <div className='inner-wrapper'>
-      <div className='nav-wrapper'>
-            <div className={!visible ? 'nav-hamburger' : 'invisible'} onClick={() => setVisible(!visible)}>
-                <div className='nav-hamburger-line'></div>
-                <div className='nav-hamburger-line'></div>
-                <div className='nav-hamburger-line'></div>
-            </div>
-              <div className={visible ? "visible sidebar" : 'non-side' }>
-                  <div className="sidebar-header">
-                      <h3>Welcome!</h3>
-                      <p id="x" onClick={() => setVisible(false)}>x</p>
-                  </div>
-
-                  <div className="sidebar-contents">
-                    <div onClick={() => handleClick(ref2)}>About Us</div>
-                    <div onClick={() => handleClick2(ref1)}>Menu</div>
-                    <div onClick={() => handleClick(ref3)}>Catering</div>
-                  </div>
-              </div>
-          </div>
           <div className="desktop-header-wrapper">
             <Header show={false}/>
           </div>
@@ -102,8 +83,7 @@ function App() {
         </div>
         <div className='content about'>
           <div className='content-wrapper'>
-            <div ref={ref2} className='content-header-about'></div>
-            <div className='content-body-about'>Tacos Traviesas (Trah-vyeh-sah) is a nod to all the Traviesas in our lives, our moms, our sisters, daughters, friends and nanas. We take traditional family recipes and meld them with new techniques, flavors and ideas to bring the best Mexican food to West Ireland. Our founders were born and raised in Texas and California with family all throughout the American Southwest and Mexico. 
+            <div className='content-body-about section'>Tacos Traviesas (Trah-vyeh-sah) is a nod to all the Traviesas in our lives, our moms, our sisters, daughters, friends and nanas. We take traditional family recipes and meld them with new techniques, flavors and ideas to bring the best Mexican food to West Ireland. Our founders were born and raised in Texas and California with family all throughout the American Southwest and Mexico. 
               <br/><br/>
               We combine flavors from the Yucatan Peninsula, Northern Mexico, California, Texas and everything in between, showcasing the smells, flavors, and beauty of Mexican Cuisine. We source heiloom maize and bean from Mexico while seeking to source the rest of our menu from local farmers, butchers and grocers. 
               <br/><br/>
@@ -113,7 +93,7 @@ function App() {
               <div className='circle-outer'>
                 <div className='circle'></div>
               </div>
-              <div className='content-header-chef'>OUR CHEF</div>
+              <div className='content-header-chef'>Our Chef</div>
               <div className='circle-outer'>
                 <div className='circle'></div>
               </div>
@@ -129,7 +109,7 @@ Outside of our taco truck, Zoë is so much more but she is also a mother to Beat
             </div>
           </div>
         </div>
-        <div className='content menu'>
+        <div className='content section menu'>
         <div className='slider'>
           <div className='slides'>
               <div className='slide'>
@@ -149,7 +129,6 @@ Outside of our taco truck, Zoë is so much more but she is also a mother to Beat
               </div>
           </div>
         </div>
-        <div ref={ref1}/>
         <div className='menu-wrapper'>
           <div className='content-header-menu'>MENU</div>
           <div className='menu-content'>Our menu changes often so please follow us on<br/>
@@ -169,7 +148,7 @@ contact you as soon as possible.
             </div>
           </div>
         </div>
-        <div className='content zoe-content'>
+        <div className='content section zoe-content'>
           <div className='content-header-taco'>HOW TO FIND US</div>
             <div className='content-body-taco'>Our menu, location, times change frequently so<br/>
 please follow us on Instagram and Twitter.</div>
@@ -191,6 +170,7 @@ please follow us on Instagram and Twitter.</div>
             <img src={image6} className='overlay-image6' alt='image6'/>
           </div>
         </div>
+        <Footer />
       </div>
     </div>
   );

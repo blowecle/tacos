@@ -7,6 +7,7 @@
     transition: opacity 0.5s ease; /* Apply a transition to the opacity property over 0.5 seconds */
     position: fixed;
     top: 0;
+    left: 0;
     width: 100vw;
     background-color: #93bfbe;
   }

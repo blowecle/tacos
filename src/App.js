@@ -69,6 +69,7 @@ function App() {
           </div>
         <div className='logo-wrapper'>
           <img className='logo' src={tortillas} alt='tortillas'/>
+          
         </div>
         <div className='content about'>
           <div className='content-wrapper'>

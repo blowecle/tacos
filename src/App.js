@@ -7,8 +7,13 @@ import Header from './Header';
 import tortillas from './images/taco_hand_1_efvqt1.jpg'
 import { Link } from 'react-router-dom';
 import EmailForm from './EmailForm';
+import image1 from './images/IMG_0448.jpeg'
+import image2 from './images/IMG_0630.jpeg'
+import image3 from './images/IMG_0638.jpeg'
+
 
 function App() {
+
 
   const [visible, setVisible] = useState(false);
 
@@ -69,18 +74,35 @@ function App() {
           </div>
         <div className='logo-wrapper'>
           <img className='logo' src={tortillas} alt='tortillas'/>
-          
+          <div className='overlay1 overlay'>
+            <img src={image1} className='overlay-image1' alt='image1'/>
+          </div>
+          <div className='overlay2 overlay'>
+            <img src={image2} className='overlay-image2' alt='image2'/>
+          </div>
+          <div className='overlay3 overlay'>
+            <img src={image3} className='overlay-image3' alt='image3'/>
+          </div>
         </div>
         <div className='content about'>
           <div className='content-wrapper'>
-            <div ref={ref2} className='content-header-about'>ABOUT US</div>
+            <div ref={ref2} className='content-header-about'></div>
             <div className='content-body-about'>Tacos Traviesas (Trah-vyeh-sah) is a nod to all the Traviesas in our lives, our moms, our sisters, daughters, friends and nanas. We take traditional family recipes and meld them with new techniques, flavors and ideas to bring the best Mexican food to West Ireland. Our founders were born and raised in Texas and California with family all throughout the American Southwest and Mexico. 
               <br/><br/>
               We combine flavors from the Yucatan Peninsula, Northern Mexico, California, Texas and everything in between, showcasing the smells, flavors, and beauty of Mexican Cuisine. We source heiloom maize and bean from Mexico while seeking to source the rest of our menu from local farmers, butchers and grocers. 
               <br/><br/>
               Our aim is to bridge cultures through food, sharing what brings us the most joy in our lives: tacos. 
             </div>
-            <div className='content-header-chef'>OUR CHEF</div>
+            <div className='chef-wrapper'>
+              <div className='circle-outer'>
+                <div className='circle'></div>
+              </div>
+              <div className='content-header-chef'>OUR CHEF</div>
+              <div className='circle-outer'>
+                <div className='circle'></div>
+              </div>
+            </div>
+            <div className='zoe-name'>Zoë Salcedo</div>
             <div className='content-body-about'>
             Zoë Salcedo spent her much of her childhood, teenage, and early adolescence growing up in San Francisco’s vibrant, heavily Mexican, Central American and generally Latin Mission District. At an early age she started working as a dishwasher at The Liberty Cafe, and made her way into some of the best kitchens in San Francisco from Incanto, to Bar Tartine, Delfina, and opening San Francisco’s First dedicated Champagne bar, all the while working shoulder to shoulder with mostly spanish speaking colleagues. This is where she fell in love with the language, the food, the people, music and vast culture of Mexico and all it’s flavors. 
 <br/><br/>
@@ -91,7 +113,7 @@ Outside of our taco truck, Zoë is so much more but she is also a mother to Beat
             </div>
           </div>
         </div>
-        <div className='content mobile-menu'>
+        <div className='content menu'>
         <div className='slider'>
           <div className='slides'>
               <div className='slide'>
@@ -113,12 +135,13 @@ Outside of our taco truck, Zoë is so much more but she is also a mother to Beat
         </div>
         <div className='menu-wrapper'>
           <div ref={ref1} className='content-header-menu'>MENU</div>
-          <div>menu content</div>
+          <div>Our menu changes often so please follow us on
+instagram @TacosTraviesas</div>
         </div>
         </div>
         <div className='content catering'>
           <div className='cater-wrapper'>
-            <div ref={ref3} className='content-header'>CATERING</div>
+            <div ref={ref3} className='content-header'>CATERING INQUIRIES</div>
             <div className='content-body cater-body'>
               <EmailForm />
             </div>

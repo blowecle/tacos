@@ -5,11 +5,17 @@ export default function EmailForm() {
 
       return (
         <form method="POST" data-netlify="true" name="contact">
-        <input
-        type="hidden"
-        name="form-name"
-        value="contact"
-        />
+            <input
+            type="hidden"
+            name="form-name"
+            value="contact"
+            />
+            <input
+            name="name"
+            type="text"
+            placeholder="Your name"
+            required
+            />
             <input
             name="email"
             type="email"

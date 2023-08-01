@@ -16,12 +16,12 @@
     opacity: 1; /* Change the opacity to 1 to make it fully visible */
   }
 
+  body {
+    background-image: url('./images/background.jpg')
+  }
+
+  /* MOBILE */
   @media screen and (max-width: 800px) {
-    body {
-      background-color: #93bfbe;
-    }
-    
-  
     .desktop-image {
       display: none;
     }
@@ -37,7 +37,7 @@
       min-width: 100vw;
       height: 7vh;
       align-items: center;
-      background-color: #93bfbe;
+      background-image: url('./images/background.jpg');
       display: flex;
       justify-content: center;
     }
@@ -134,8 +134,11 @@
 
 
 
-
+/* DESKTOP */
   @media screen and (min-width: 801px) { 
+    .header-wrapper {
+      background-image: url('./images/background.jpg');
+    }
     img {
       max-width: 100%;
     }

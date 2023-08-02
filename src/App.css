@@ -266,7 +266,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
 
 /* MOBILE */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 529px){
   .content-header-catering{
     font-family: verdanaBold;
     font-size: 1.3rem;
@@ -446,6 +446,369 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     font-size: 2rem;
     text-align: center;
     margin-top: 8%;
+  }
+
+  .content-header-about {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .content-body {
+    font-family: verdana;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .content-body-taco {
+    width: 80vw;
+    font-family: verdana;
+    font-size: .7rem;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .social-wrapper {
+    position: relative;
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+  }
+
+  .social {
+    width: 10vw;
+    height: 10vw;
+    margin-top: 5%;
+    margin-bottom: 10vh;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .content-body-about {
+    font-family: verdana;
+    font-size: 1rem;
+    text-align: center;
+    width: 90vw;
+    margin-bottom: 5%;
+    font-style: italic;
+    margin-top: 10%;
+  }
+
+  .section{
+    margin-top: 30%;
+  }
+
+  .content-header-menu {
+    font-family: verdanaBold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .menu-wrapper {
+    margin-top: -50%;
+    width: 90vw
+  }
+
+  .menu-content{
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .logo-wrapper {
+    margin-top: 28%;
+    background-blend-mode: multiply;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    position: relative;
+  }
+
+  .logo {
+    width: 80%;
+  }
+
+  .slider {
+    padding-top: 2vh;
+    width: 90vw;
+    height: 60%;
+    overflow: hidden;
+  }
+    
+  .slides {
+    display: flex;
+    flex-direction: row;
+    width: 400%;
+    height: 60%;
+    animation: slide 14s ease-in infinite;
+  }
+    
+  .slide img {
+    width: 90vw;
+    height: 60%;
+    overflow:hidden;
+    object-fit: cover;
+  }
+    
+  @keyframes slide {
+    0% { margin-left: 0;}
+    21% {margin-left: 0;}
+    25% {margin-left: -100%;}
+    46% {margin-left: -100%;}
+    50% {margin-left: -200%;}
+    71% {margin-left: -200%;}
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+    100% {margin-left: 0;}
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button{
+    background-color: #b7443d;
+    color: white;
+    border: none;
+    width: 30%;
+    font-size: 20px;
+  }
+
+  .about {
+    color: white;
+  }
+
+  .catering {
+    color: white;
+    margin-top: 15%;
+  }
+
+  .cater-wrapper {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(72, 82, 217);
+    border: 5px solid white;
+  }
+
+  .cater-body {
+    margin-bottom: 2vh;
+  }
+
+  .image {
+    width: 100vw;
+  }
+
+  .zoe-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .zoe-content {
+    color: white;
+    position: relative;
+    margin-bottom: 30%;
+  }
+
+  .zoe {
+    margin-top: 2vh;
+    width: 90vw;
+  }
+}
+
+/* TABLET */
+@media screen and (max-width: 929px){
+  .content-header-catering{
+    font-family: verdanaBold;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .catering-content{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 5%;
+  }
+
+  .chef-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .circle {
+    width: 10px;
+    height: 10px;
+    background-color: #b7443d;
+    border-radius: 50%;
+  }
+
+  .menu {
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .zoe-name {
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: bold;
+    text-align: center;
+    margin-bottom: 4%;
+    margin-top: 1%;
+    font-style: italic;
+  }
+
+  .circle-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+
+  .overlay {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 120px;
+    width: 120px;
+  }
+  
+  .overlay-bottom {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 140px;
+    width: 140px;
+  }
+
+  .overlay-bottom-large {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 165px;
+    width: 165px;
+  }
+
+  .overlay1{
+    top: -10%;
+    left: 0;
+  }
+
+  .overlay-image1{
+    width: 220%;
+    height: 220%;
+    object-fit: cover;
+    position: absolute;
+    top: -120%;
+    left: -80%;
+  }
+
+  .overlay2{
+    top: 25%;
+    right: -7%;
+  }
+
+  .overlay-image2{
+    width: 180%;
+    height: 180%;
+    object-fit: cover;
+    position: absolute;
+    left: -50%;
+    top: -30%;
+  }
+
+  .overlay3{
+    bottom: -5%;
+    left: -5%;
+  }
+
+  .overlay-image3{
+    width: 250%;
+    height: 250%;
+    object-fit: cover;
+    position: absolute;
+    left: -100%;
+    top: -80%;
+  }
+
+  .overlay4{
+    top: 70%;
+    right: -10%;
+  }
+
+  .overlay-image4{
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+    position: absolute;
+    top: 0%;
+    left: -10%;
+  }
+
+  .overlay5{
+    bottom: -40%;
+    left: 20%;
+  }
+
+  .overlay-image5{
+    width: 200%;
+    height: 200%;
+    object-fit: cover;
+    position: absolute;
+    left: -50%;
+    top: -50%;
+  }
+
+  .overlay6{
+    bottom: 0%;
+    left: -13%;
+  }
+
+  .overlay-image6{
+    width: 150%;
+    height: 150%;
+    rotate: calc(-20deg);
+    object-fit: cover;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+  }
+
+  .content-header-chef{
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-style: bold;
+    text-align: center;
+  }
+
+  .content-header {
+    font-family: verdanaBold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2vh;
+  }
+
+  .content-header-taco {
+    font-family: verdanaBold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -10%;
   }
 
   .content-header-about {

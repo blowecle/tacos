@@ -83,7 +83,7 @@ function App() {
         </div>
         <div className='content about'>
           <div className='content-wrapper'>
-            <div className='content-body-about section'>Tacos Traviesas (Trah-vyeh-sah) is a nod to all the Traviesas in our lives, our moms, our sisters, daughters, friends and nanas. We take traditional family recipes and meld them with new techniques, flavors and ideas to bring the best Mexican food to West Ireland. Our founders were born and raised in Texas and California with family all throughout the American Southwest and Mexico. 
+            <div className='content-body-about'>Tacos Traviesas (Trah-vyeh-sah) is a nod to all the Traviesas in our lives, our moms, our sisters, daughters, friends and nanas. We take traditional family recipes and meld them with new techniques, flavors and ideas to bring the best Mexican food to West Ireland. Our founders were born and raised in Texas and California with family all throughout the American Southwest and Mexico. 
               <br/><br/>
               We combine flavors from the Yucatan Peninsula, Northern Mexico, California, Texas and everything in between, showcasing the smells, flavors, and beauty of Mexican Cuisine. We source heiloom maize and bean from Mexico while seeking to source the rest of our menu from local farmers, butchers and grocers. 
               <br/><br/>
@@ -109,7 +109,7 @@ Outside of our taco truck, Zoë is so much more but she is also a mother to Beat
             </div>
           </div>
         </div>
-        <div className='content section menu'>
+        <div className='content menu'>
         <div className='slider'>
           <div className='slides'>
               <div className='slide'>

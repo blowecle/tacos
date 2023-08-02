@@ -1,4 +1,7 @@
-.footer {
+
+/* MOBILE */
+@media screen and (max-width: 529px){
+    .footer {
     height: 10vh;
     border-top: 2px solid white;
     display: flex;
@@ -8,7 +11,26 @@
     width: 100vw;
     color: white;
     font-style: italic;
+    }
+    .artist{
+        margin-bottom: 2%;
+    }
 }
-.artist{
-    margin-bottom: 2%;
+
+/* TABLET */
+@media screen and (max-width: 930px){
+    .footer {
+        height: 10vh;
+        border-top: 2px solid white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+        color: white;
+        font-style: italic;
+        }
+        .artist{
+            margin-bottom: 2%;
+        }
 }

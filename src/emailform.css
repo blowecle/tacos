@@ -1,4 +1,55 @@
-@media screen and (max-width: 529px){
+/* MOBILE */
+@media screen and (max-width: 490px){
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name-input{
+        width: 90%;
+        margin-bottom: 2%;
+    }
+
+    .email-input{
+        width: 90%;
+        margin-bottom: 2%;
+    }
+
+    .message-input{
+        width: 90%;
+        height: 10vh;
+        margin-bottom: 2%;
+    }
+}
+
+/* TABLET */
+@media screen and (min-width: 491px) and (max-width: 768px) {
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name-input{
+        width: 90%;
+        margin-bottom: 2%;
+    }
+
+    .email-input{
+        width: 90%;
+        margin-bottom: 2%;
+    }
+
+    .message-input{
+        width: 90%;
+        height: 10vh;
+        margin-bottom: 2%;
+    }
+}
+
+/* LAPTOP */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .contact-form{
         display: flex;
         flex-direction: column;

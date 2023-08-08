@@ -31,10 +31,6 @@ a {
   }
   /* DESKTOP */
 @media screen and (min-width: 801px) { 
-  img {
-    max-width: 100%;
-  }
-
   .inner-wrapper {
     width: 100vw;
   }
@@ -231,25 +227,6 @@ a {
     
   }
 
-  .slider {
-    margin-top: 5vh;
-    width: 30vw;
-    height: 100%;
-    overflow: hidden;
-  }
-    
-  .slides {
-    display: flex;
-    flex-direction: row;
-    width: 400%;
-    animation: slide 14s ease-in infinite;
-  }
-    
-  .slide img {
-    width: 30vw;
-    height: 100%;
-  }
-
   .top-div {
     display: flex;
     width: 100vw;
@@ -259,18 +236,6 @@ a {
 
   .desktop-wrapper {
     display: flex;
-  }
-    
-  @keyframes slide {
-    0% { margin-left: 0;}
-    21% {margin-left: 0;}
-    25% {margin-left: -100%;}
-    46% {margin-left: -100%;}
-    50% {margin-left: -200%;}
-    71% {margin-left: -200%;}
-    75% {margin-left: -300%;}
-    95% {margin-left: -300%;}
-    100% {margin-left: 0;}
   }
 }
 
@@ -389,9 +354,6 @@ a {
   @media screen and (min-width: 801px) { 
     .header-wrapper {
       background-image: url('./images/background.jpg');
-    }
-    img {
-      max-width: 100%;
     }
 
     .inner-wrapper {
@@ -590,24 +552,7 @@ a {
       
     }
   
-    .slider {
-      margin-top: 5vh;
-      width: 30vw;
-      height: 100%;
-      overflow: hidden;
-    }
-      
-    .slides {
-      display: flex;
-      flex-direction: row;
-      width: 400%;
-      animation: slide 14s ease-in infinite;
-    }
-      
-    .slide img {
-      width: 30vw;
-      height: 100%;
-    }
+    
   
     .top-div {
       display: flex;
@@ -618,18 +563,6 @@ a {
   
     .desktop-wrapper {
       display: flex;
-    }
-      
-    @keyframes slide {
-      0% { margin-left: 0;}
-      21% {margin-left: 0;}
-      25% {margin-left: -100%;}
-      46% {margin-left: -100%;}
-      50% {margin-left: -200%;}
-      71% {margin-left: -200%;}
-      75% {margin-left: -300%;}
-      95% {margin-left: -300%;}
-      100% {margin-left: 0;}
     }
   }
   

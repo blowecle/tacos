@@ -15,7 +15,7 @@ a {
     left: 0;
     width: 100vw;
     height: 10vh;
-    z-index: 99;
+    z-index: 98;
   }
   
   .header.fade-in {
@@ -29,12 +29,16 @@ a {
   .header-wrapper {
     background-image: url('./images/background.jpg');
   }
-  /* DESKTOP */
-@media screen and (min-width: 801px) { 
-  .inner-wrapper {
-    width: 100vw;
+
+  .overlay1 {
+    z-index: 100;
   }
 
+  .logo-wrapper {
+    z-index: 99
+  }
+  /* DESKTOP */
+@media screen and (min-width: 801px) { 
   .desktop-link {
     font-size: 1.6rem;
     font-family: logoFont;
@@ -62,23 +66,19 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #93bfbe;
     align-items: center;
     height: 12vh;
   }
 
   .desktop-header-wrapper {
     width: 100vw;
-    background-color: #93bfbe;
   }
   
   body {
-    background-color: #93bfbe;
   }
   
   .construction-wrapper{
     width: 100vw;
-    background-color: #93bfbe;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,7 +88,6 @@ a {
   .title {
     font-size: 3rem;
     max-width: 60vw;
-    background-color: #93bfbe;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -356,10 +355,6 @@ a {
       background-image: url('./images/background.jpg');
     }
 
-    .inner-wrapper {
-      width: 100vw;
-    }
-
     .desktop-link {
       font-size: 1.6rem;
       font-family: logoFont;
@@ -387,23 +382,19 @@ a {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      background-color: #93bfbe;
       align-items: center;
       height: 12vh;
     }
 
     .desktop-header-wrapper {
       width: 100vw;
-      background-color: #93bfbe;
     }
     
     body {
-      background-color: #93bfbe;
     }
     
     .construction-wrapper{
       width: 100vw;
-      background-color: #93bfbe;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -413,7 +404,6 @@ a {
     .title {
       font-size: 3rem;
       max-width: 60vw;
-      background-color: #93bfbe;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -572,7 +562,7 @@ a {
   }
 
 .title {
-    font-size: 24px;
+    font-size: 2rem;
     max-width: 63%;
   }
 

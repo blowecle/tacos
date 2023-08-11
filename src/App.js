@@ -101,11 +101,10 @@ function App() {
             <div className='zoe-name'>Zoë Salcedo</div>
             <div className='content-body-about'>
             Zoë Salcedo spent her much of her childhood, teenage, and early adolescence growing up in San Francisco’s vibrant, heavily Mexican, Central American and generally Latin Mission District. At an early age she started working as a dishwasher at The Liberty Cafe, and made her way into some of the best kitchens in San Francisco from Incanto, to Bar Tartine, Delfina, and opening San Francisco’s First dedicated Champagne bar, all the while working shoulder to shoulder with mostly spanish speaking colleagues. This is where she fell in love with the language, the food, the people, music and vast culture of Mexico and all it’s flavors. 
-<br/><br/>
-Zoë brings a vast culinary toolkit, a wealth of knowledge in the field and most importantly a curiosity that is in constant search of new flavors and classic techniques. 
-<br/><br/>
-Outside of our taco truck, Zoë is so much more but she is also a mother to Beatrix Bean and a wonderful wife to Chris Salcedo.
-
+            <br/><br/>
+            Zoë brings a vast culinary toolkit, a wealth of knowledge in the field and most importantly a curiosity that is in constant search of new flavors and classic techniques. 
+            <br/><br/>
+            Outside of our taco truck, Zoë is so much more but she is also a mother to Beatrix Bean and a wonderful wife to Chris Salcedo.
             </div>
           </div>
         </div>

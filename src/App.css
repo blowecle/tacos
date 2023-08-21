@@ -43,6 +43,34 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
 /* MOBILE-S */
 @media screen and (max-width: 320px){
+  /* The parallax container */
+  .parallax {
+    /* The height of the parallax container */
+    height: 800px;
+  
+    /* This makes the background image fixed when scrolling */
+    background-attachment: fixed;
+  
+    /* The background image */
+    background-image: url('./images/truck.jpg');
+  
+    /* Center and cover the background image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* span the width of the screen */
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .traviesas-content{
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+  }
+
   .content-header-catering{
     font-family: verdanaBold;
     font-size: 1.3rem;
@@ -61,6 +89,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5%;
   }
 
   .circle {
@@ -81,8 +110,6 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     font-weight: 700;
     font-style: bold;
     text-align: center;
-    margin-bottom: 4%;
-    margin-top: 1%;
     font-style: italic;
   }
 
@@ -270,7 +297,6 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     font-family: verdana;
     font-size: 1rem;
     text-align: center;
-    width: 90%;
     margin-bottom: 5%;
     font-style: italic;
     margin-top: 4%;
@@ -408,6 +434,34 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
 /* MOBILE */
 @media screen and (min-width: 321px) and (max-width: 489px){
+  /* The parallax container */
+  .parallax {
+    /* The height of the parallax container */
+    height: 800px;
+  
+    /* This makes the background image fixed when scrolling */
+    background-attachment: fixed;
+  
+    /* The background image */
+    background-image: url('./images/truck.jpg');
+  
+    /* Center and cover the background image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* span the width of the screen */
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .traviesas-content{
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+  }
+
   .content-header-catering{
     font-family: verdanaBold;
     font-size: 1.3rem;
@@ -426,6 +480,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5%;
   }
 
   .circle {
@@ -632,7 +687,6 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     font-family: verdana;
     font-size: 1rem;
     text-align: center;
-    width: 90vw;
     margin-bottom: 5%;
     font-style: italic;
     margin-top: 4%;
@@ -770,6 +824,34 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
 /* TABLET */
 @media screen and (min-width: 490px) and (max-width: 768px){
+    /* The parallax container */
+    .parallax {
+      /* The height of the parallax container */
+      height: 800px;
+    
+      /* This makes the background image fixed when scrolling */
+      background-attachment: fixed;
+    
+      /* The background image */
+      background-image: url('./images/truck.jpg');
+    
+      /* Center and cover the background image */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+      /* span the width of the screen */
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .traviesas-content{
+      padding-right: 5%;
+      padding-left: 5%;
+      margin-bottom: 10%;
+      margin-top: 5%;
+    }
+
   .inner-wrapper{
     width: 80%;
   }
@@ -791,6 +873,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5%;
   }
 
   .circle {
@@ -999,7 +1082,6 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     font-family: verdana;
     font-size: 1rem;
     text-align: center;
-    width: 80%;
     margin-bottom: 5%;
     font-style: italic;
   }
@@ -1135,6 +1217,34 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
 /* LAPTOP */
 @media screen and (min-width: 769px) and (max-width: 1024px){
+    /* The parallax container */
+    .parallax {
+      /* The height of the parallax container */
+      height: 800px;
+    
+      /* This makes the background image fixed when scrolling */
+      background-attachment: fixed;
+    
+      /* The background image */
+      background-image: url('./images/truck.jpg');
+    
+      /* Center and cover the background image */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 50% 100%;
+  
+      /* span the width of the screen */
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .traviesas-content{
+      padding-right: 5%;
+      padding-left: 5%;
+      margin-bottom: 10%;
+      margin-top: 5%;
+    }
+
   .content-header-catering{
     font-family: verdanaBold;
     font-size: 1.3rem;
@@ -1153,6 +1263,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5%;
   }
 
   .circle {
@@ -1362,7 +1473,6 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     text-align: center;
     width: 90%;
     margin-bottom: 5%;
-    margin-top: 5%;
     font-style: italic;
   }
 
@@ -1507,6 +1617,34 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
 /* DESKTOP */
 @media screen and (min-width: 1025px) and (max-width: 1440px){
+    /* The parallax container */
+    .parallax {
+      /* The height of the parallax container */
+      height: 800px;
+    
+      /* This makes the background image fixed when scrolling */
+      background-attachment: fixed;
+    
+      /* The background image */
+      background-image: url('./images/truck.jpg');
+    
+      /* Center and cover the background image */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+      /* span the width of the screen */
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .traviesas-content{
+      padding-right: 5%;
+      padding-left: 5%;
+      margin-bottom: 10%;
+      margin-top: 5%;
+    }
+
   .content-header-catering{
     font-family: verdanaBold;
     font-size: 1.3rem;
@@ -1525,6 +1663,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5%;
   }
 
   .circle {
@@ -1880,6 +2019,34 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
 /* DESKTOP-L */
 @media screen and (min-width: 1440px){
+    /* The parallax container */
+    .parallax {
+      /* The height of the parallax container */
+      height: 800px;
+    
+      /* This makes the background image fixed when scrolling */
+      background-attachment: fixed;
+    
+      /* The background image */
+      background-image: url('./images/truck.jpg');
+    
+      /* Center and cover the background image */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 40% 100%;
+  
+      /* span the width of the screen */
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .traviesas-content{
+      padding-right: 5%;
+      padding-left: 5%;
+      margin-bottom: 10%;
+      margin-top: 5%;
+    }
+
   .content-header-catering{
     font-family: verdanaBold;
     font-size: 1.3rem;
@@ -1898,6 +2065,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5%;
   }
 
   .circle {
@@ -2105,7 +2273,6 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     font-family: verdana;
     font-size: 1rem;
     text-align: center;
-    width: 90%;
     margin-bottom: 5%;
     font-style: italic;
   }

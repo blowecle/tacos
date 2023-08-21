@@ -9,7 +9,7 @@ const Header = ({show}) => {
     const handleScroll = () => {
       const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
-      if (scrollPosition > 500) {
+      if (scrollPosition > 1800) {
         setIsSticky(true);
       } else {
         setIsSticky(false);

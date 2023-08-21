@@ -33,35 +33,35 @@ function App() {
     setTimeout(onLoad, 1000)
   }, [])
 
-  const handleClick = (ref) => {
-    if (ref.current) {
-      const headerHeight = 0.15 * window.innerHeight;
-      const elementTopOffset = ref.current.getBoundingClientRect().top;
-      const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+  // const handleClick = (ref) => {
+  //   if (ref.current) {
+  //     const headerHeight = 0.15 * window.innerHeight;
+  //     const elementTopOffset = ref.current.getBoundingClientRect().top;
+  //     const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
   
-      if(visible) setVisible(false);
+  //     if(visible) setVisible(false);
 
-      window.scrollTo({
-        top: scrollPosition + elementTopOffset - headerHeight,
-        behavior: 'smooth',
-      });
-    }
-  };
+  //     window.scrollTo({
+  //       top: scrollPosition + elementTopOffset - headerHeight,
+  //       behavior: 'smooth',
+  //     });
+  //   }
+  // };
 
-  const handleClick2 = (ref) => {
-    if (ref.current) {
-      const headerHeight = 0.342 * window.innerHeight;
-      const elementTopOffset = ref.current.getBoundingClientRect().top;
-      const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+  // const handleClick2 = (ref) => {
+  //   if (ref.current) {
+  //     const headerHeight = 0.342 * window.innerHeight;
+  //     const elementTopOffset = ref.current.getBoundingClientRect().top;
+  //     const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
   
-      if(visible) setVisible(false);
+  //     if(visible) setVisible(false);
 
-      window.scrollTo({
-        top: scrollPosition + elementTopOffset - headerHeight,
-        behavior: 'smooth',
-      });
-    }
-  };
+  //     window.scrollTo({
+  //       top: scrollPosition + elementTopOffset - headerHeight,
+  //       behavior: 'smooth',
+  //     });
+  //   }
+  // };
 
   return (
     <div className='wrapper'>
@@ -83,11 +83,15 @@ function App() {
         </div>
         <div className='content about'>
           <div className='content-wrapper'>
-            <div className='content-body-about'>Tacos Traviesas (Trah-vyeh-sah) is a nod to all the Traviesas in our lives, our moms, our sisters, daughters, friends and nanas. We take traditional family recipes and meld them with new techniques, flavors and ideas to bring the best Mexican food to West Ireland. Our founders were born and raised in Texas and California with family all throughout the American Southwest and Mexico. 
-              <br/><br/>
-              We combine flavors from the Yucatan Peninsula, Northern Mexico, California, Texas and everything in between, showcasing the smells, flavors, and beauty of Mexican Cuisine. We source heiloom maize and bean from Mexico while seeking to source the rest of our menu from local farmers, butchers and grocers. 
-              <br/><br/>
-              Our aim is to bridge cultures through food, sharing what brings us the most joy in our lives: tacos. 
+            <div className='content-body-about'>
+              <div className='traviesas-content'>
+                Tacos Traviesas (Trah-vyeh-sah) is a nod to all the Traviesas in our lives, our moms, our sisters, daughters, friends and nanas. We take traditional family recipes and meld them with new techniques, flavors and ideas to bring the best Mexican food to West Ireland. Our founders were born and raised in Texas and California with family all throughout the American Southwest and Mexico. 
+                <br/><br/>
+                We combine flavors from the Yucatan Peninsula, Northern Mexico, California, Texas and everything in between, showcasing the smells, flavors, and beauty of Mexican Cuisine. We source heiloom maize and bean from Mexico while seeking to source the rest of our menu from local farmers, butchers and grocers. 
+                <br/><br/>
+                Our aim is to bridge cultures through food, sharing what brings us the most joy in our lives: tacos. 
+              </div>
+              <div className='parallax'>
             </div>
             <div className='chef-wrapper'>
               <div className='circle-outer'>
@@ -98,13 +102,16 @@ function App() {
                 <div className='circle'></div>
               </div>
             </div>
+            </div>
             <div className='zoe-name'>Zoë Salcedo</div>
             <div className='content-body-about'>
-            Zoë Salcedo spent her much of her childhood, teenage, and early adolescence growing up in San Francisco’s vibrant, heavily Mexican, Central American and generally Latin Mission District. At an early age she started working as a dishwasher at The Liberty Cafe, and made her way into some of the best kitchens in San Francisco from Incanto, to Bar Tartine, Delfina, and opening San Francisco’s First dedicated Champagne bar, all the while working shoulder to shoulder with mostly spanish speaking colleagues. This is where she fell in love with the language, the food, the people, music and vast culture of Mexico and all it’s flavors. 
-            <br/><br/>
-            Zoë brings a vast culinary toolkit, a wealth of knowledge in the field and most importantly a curiosity that is in constant search of new flavors and classic techniques. 
-            <br/><br/>
-            Outside of our taco truck, Zoë is so much more but she is also a mother to Beatrix Bean and a wonderful wife to Chris Salcedo.
+              <div className='traviesas-content'>
+                Zoë Salcedo spent her much of her childhood, teenage, and early adolescence growing up in San Francisco’s vibrant, heavily Mexican, Central American and generally Latin Mission District. At an early age she started working as a dishwasher at The Liberty Cafe, and made her way into some of the best kitchens in San Francisco from Incanto, to Bar Tartine, Delfina, and opening San Francisco’s First dedicated Champagne bar, all the while working shoulder to shoulder with mostly spanish speaking colleagues. This is where she fell in love with the language, the food, the people, music and vast culture of Mexico and all it’s flavors. 
+                <br/><br/>
+                Zoë brings a vast culinary toolkit, a wealth of knowledge in the field and most importantly a curiosity that is in constant search of new flavors and classic techniques. 
+                <br/><br/>
+                Outside of our taco truck, Zoë is so much more but she is also a mother to Beatrix Bean and a wonderful wife to Chris Salcedo.
+              </div>
             </div>
           </div>
         </div>

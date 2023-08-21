@@ -16,7 +16,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 }
 
 .content-header-chef {
-  color: #b7443d;
+  color: #d4443d;
 }
 
 .wrapper{
@@ -95,7 +95,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .circle {
     width: 10px;
     height: 10px;
-    background-color: #b7443d;
+    background-color: #d4443d;
     border-radius: 50%;
   }
 
@@ -382,7 +382,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   button{
-    background-color: #b7443d;
+    background-color: #d4443d;
     color: white;
     border: none;
     width: 30%;
@@ -486,7 +486,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .circle {
     width: 10px;
     height: 10px;
-    background-color: #b7443d;
+    background-color: #d4443d;
     border-radius: 50%;
   }
 
@@ -772,7 +772,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   button{
-    background-color: #b7443d;
+    background-color: #d4443d;
     color: white;
     border: none;
     width: 30%;
@@ -846,8 +846,8 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     }
   
     .traviesas-content{
-      padding-right: 5%;
-      padding-left: 5%;
+      padding-right: 10%;
+      padding-left: 10%;
       margin-bottom: 10%;
       margin-top: 5%;
     }
@@ -879,7 +879,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .circle {
     width: 10px;
     height: 10px;
-    background-color: #b7443d;
+    background-color: #d4443d;
     border-radius: 50%;
   }
 
@@ -1078,11 +1078,9 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .content-body-about {
-    margin-top: 5%;
     font-family: verdana;
     font-size: 1rem;
     text-align: center;
-    margin-bottom: 5%;
     font-style: italic;
   }
 
@@ -1166,7 +1164,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   button{
-    background-color: #b7443d;
+    background-color: #d4443d;
     color: white;
     border: none;
     width: 30%;
@@ -1269,7 +1267,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .circle {
     width: 10px;
     height: 10px;
-    background-color: #b7443d;
+    background-color: #d4443d;
     border-radius: 50%;
   }
 
@@ -1484,8 +1482,6 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     font-family: verdanaBold;
     font-size: 2rem;
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
   }
 
   .menu-wrapper {
@@ -1561,7 +1557,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   button{
-    background-color: #b7443d;
+    background-color: #d4443d;
     color: white;
     border: none;
     width: 30%;
@@ -1669,7 +1665,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .circle {
     width: 10px;
     height: 10px;
-    background-color: #b7443d;
+    background-color: #d4443d;
     border-radius: 50%;
   }
 
@@ -1961,7 +1957,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   button{
-    background-color: #b7443d;
+    background-color: #d4443d;
     color: white;
     border: none;
     width: 30%;
@@ -2071,7 +2067,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .circle {
     width: 10px;
     height: 10px;
-    background-color: #b7443d;
+    background-color: #d4443d;
     border-radius: 50%;
   }
 
@@ -2364,7 +2360,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   button{
-    background-color: #b7443d;
+    background-color: #d4443d;
     color: white;
     border: none;
     width: 30%;

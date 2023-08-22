@@ -1,9 +1,9 @@
 /* @media screen and (max-width: 600px) {
   body {
-    background-color: #a6dfce;
+    background-color: #72bfbe;
   }
   .construction-wrapper{
-    background-color: #a6dfce;
+    background-color: #72bfbe;
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -27,7 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #a6dfce;
+    background-color: #72bfbe;
     border-bottom: 2px solid #d0342c;
   }
 
@@ -149,12 +149,12 @@
 
 @media screen and (min-width: 601px) {  
   body {
-    background-color: #a6dfce;
+    background-color: #72bfbe;
   }
   
   .construction-wrapper{
     width: 100vw;
-    background-color: #a6dfce;
+    background-color: #72bfbe;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,7 +166,7 @@
     margin-bottom: 2vh;
     max-width: 60vw;
     padding: 1rem;
-    background-color: #a6dfce;
+    background-color: #72bfbe;
   }
 
   .construction-image {

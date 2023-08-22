@@ -8,7 +8,7 @@
   .nav-hamburger-line {
     width: 35px;
     height: 5px;
-    background-color: #d6a242;
+    background-color: #dfbb38;
     margin: 6px 0;
     transition: 0.4s;
 }
@@ -47,7 +47,7 @@ h3 {
   position: fixed;
   height: 100vh;
   width: 100vw;
-  background-color: #d6a242;
+  background-color: #dfbb38;
 }
 
 
@@ -55,7 +55,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #a6dfce;
+  background-color: #72bfbe;
   height: 80px;
 }
 

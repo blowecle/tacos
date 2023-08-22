@@ -57,7 +57,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     /* Center and cover the background image */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 
     /* span the width of the screen */
     width: 100%;

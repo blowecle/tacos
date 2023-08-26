@@ -1070,7 +1070,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .menu-wrapper {
-    margin-top: -30%;
+    margin-top: -35%;
     width: 90vw
   }
 
@@ -1238,7 +1238,6 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .menu {
     color: white;
     text-align: center;
-    margin-top: 10%;
   }
 
   .zoe-name {
@@ -1449,7 +1448,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .menu-wrapper {
-    margin-top: -35%;
+    margin-top: -30%;
     width: 90vw
   }
 

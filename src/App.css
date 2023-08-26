@@ -795,7 +795,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .zoe-content {
     color: white;
     position: relative;
-    margin-bottom: 18%;
+    margin-bottom: 11%;
   }
 
   .zoe {
@@ -901,8 +901,8 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     position: absolute;
     border-radius: 50%;
     overflow: hidden;
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
   }
 
   .overlay1{
@@ -1627,7 +1627,6 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .menu {
     color: white;
     text-align: center;
-    margin-top: 10%;
   }
 
   .zoe-name {
@@ -1636,8 +1635,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     font-weight: 700;
     font-style: bold;
     text-align: center;
-    margin-bottom: 4%;
-    margin-top: 1%;
+    margin-bottom: 1%;
     font-style: italic;
   }
 
@@ -1835,7 +1833,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     font-family: verdanaBold;
     font-size: 2rem;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 5%;
     margin-bottom: 5%;
   }
 
@@ -1917,6 +1915,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     border: none;
     width: 30%;
     font-size: 20px;
+    margin-top: 6%;
   }
 
   .about {
@@ -1955,7 +1954,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .zoe-content {
     color: white;
     position: relative;
-    margin-bottom: 10%;
+    margin-bottom: 6%;
   }
 
   .zoe {
@@ -1985,8 +1984,8 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     .traviesas-content{
       padding-right: 5%;
       padding-left: 5%;
-      margin-bottom: 10%;
       margin-top: 5%;
+      margin-bottom: 5%;
     }
 
   .content-header-catering{
@@ -2029,8 +2028,6 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     font-weight: 700;
     font-style: bold;
     text-align: center;
-    margin-bottom: 4%;
-    margin-top: 1%;
     font-style: italic;
   }
 
@@ -2227,7 +2224,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     font-family: verdanaBold;
     font-size: 2rem;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 5%;
     margin-bottom: 5%;
   }
 
@@ -2311,6 +2308,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     border: none;
     width: 30%;
     font-size: 20px;
+    margin-top: 3.5%;
   }
 
   .about {

@@ -87,9 +87,9 @@ function App() {
           <div className='content-wrapper'>
             <div className='content-body-about'>
               <div className='traviesas-content'>
-                Tacos Traviesas (Trah-vyeh-sah) is a nod to all the Traviesas in our lives, our moms, our sisters, daughters, friends and nanas. We take traditional family recipes and meld them with new techniques, flavors and ideas to bring the best Mexican food to West Ireland. Our founders were born and raised in Texas and California with family all throughout the American Southwest and Mexico. 
+                Tacos Traviesas (Trah-vyeh-sahs) is a nod to all the Traviesas in our lives: our moms, our sisters, daughters, friends and nanas. We take traditional family recipes and meld them with new techniques, flavors and ideas to bring the best Mexican food to West Ireland. Our founders were born and raised in Texas and California with family all throughout the American Southwest and Mexico. 
                 <br/><br/>
-                We combine flavors from the Yucatan Peninsula, Northern Mexico, California, Texas and everything in between, showcasing the smells, flavors, and beauty of Mexican Cuisine. We source heiloom maize and bean from Mexico while seeking to source the rest of our menu from local farmers, butchers and grocers. 
+                We combine flavors from the Yucatan Peninsula, Northern Mexico, California, Texas and everything in between, showcasing the aromas, flavors, and beauty of Mexican Cuisine. We source heirloom maize and beans from Mexico while seeking to source the rest of our menu from local farmers, butchers and grocers. 
                 <br/><br/>
                 Our aim is to bridge cultures through food, sharing what brings us the most joy in our lives: tacos. 
               </div>
@@ -111,11 +111,11 @@ function App() {
             <div className='zoe-name'>Zoë Salcedo</div>
             <div className='content-body-about'>
               <div className='traviesas-content'>
-                Zoë Salcedo spent her much of her childhood, teenage, and early adolescence growing up in San Francisco’s vibrant, heavily Mexican, Central American and generally Latin Mission District. At an early age she started working as a dishwasher at The Liberty Cafe, and made her way into some of the best kitchens in San Francisco from Incanto, to Bar Tartine, Delfina, and opening San Francisco’s First dedicated Champagne bar, all the while working shoulder to shoulder with mostly spanish speaking colleagues. This is where she fell in love with the language, the food, the people, music and vast culture of Mexico and all it’s flavors. 
+              Zoë Salcedo spent much of her childhood, teenage years, and early adulthood in San Francisco's vibrant Mission District, an area rich in Mexican, Central American, and broader Latin influences. She began her culinary journey as a dishwasher at The Liberty Cafe and gradually progressed through some of San Francisco's finest kitchens, from Incanto to Bar Tartine and Delfina. She also had the distinction of opening San Francisco’s first dedicated Champagne bar. Throughout these experiences, she worked closely with predominantly Spanish-speaking colleagues. It was in these kitchens that she developed a deep appreciation for the language, cuisine, people, music, and expansive culture of Mexico, with all its flavorful nuances.
                 <br/><br/>
-                Zoë brings a vast culinary toolkit, a wealth of knowledge in the field and most importantly a curiosity that is in constant search of new flavors and classic techniques. 
+                Zoë brings an extensive culinary skillset, vast knowledge in her field, and above all, a relentless curiosity that always seeks new flavors and time-honored techniques.
                 <br/><br/>
-                Outside of our taco truck, Zoë is so much more but she is also a mother to Beatrix Bean and a wonderful wife to Chris Salcedo.
+                Beyond her role at our taco truck, Zoë is multifaceted: she's the cherished mother of Beatrix Bean and a loving wife to Chris Salcedo.
               </div>
             </div>
           </div>

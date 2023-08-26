@@ -93,7 +93,7 @@ function App() {
                 <br/><br/>
                 Our aim is to bridge cultures through food, sharing what brings us the most joy in our lives: tacos. 
               </div>
-              <Parallax className='parallax' strength={300}>
+              <Parallax className='parallax' strength={50}>
                 <Background className="custom-bg">
                     <img className='truck-img' src={truck} alt="fill murray" />
                 </Background>

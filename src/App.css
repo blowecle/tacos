@@ -43,25 +43,16 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
 /* MOBILE-S */
 @media screen and (max-width: 320px){
-  /* The parallax container */
   .parallax {
-    /* The height of the parallax container */
-    height: 800px;
-  
-    /* This makes the background image fixed when scrolling */
-    background-attachment: fixed;
-  
-    /* The background image */
-    background-image: url('./images/truck.jpg');
-  
-    /* Center and cover the background image */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    /* span the width of the screen */
-    width: 100%;
-    margin: 0 auto;
+  .truck-img {
+    width: 100vw;
+    height: auto;
   }
 
   .traviesas-content{
@@ -434,25 +425,16 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
 /* MOBILE */
 @media screen and (min-width: 321px) and (max-width: 489px){
-  /* The parallax container */
   .parallax {
-    /* The height of the parallax container */
-    height: 800px;
-  
-    /* This makes the background image fixed when scrolling */
-    background-attachment: fixed;
-  
-    /* The background image */
-    background-image: url('./images/truck.jpg');
-  
-    /* Center and cover the background image */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    /* span the width of the screen */
-    width: 100%;
-    margin: 0 auto;
+  .truck-img {
+    width: 100vw;
+    height: auto;
   }
 
   .traviesas-content{
@@ -824,26 +806,17 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
 /* TABLET */
 @media screen and (min-width: 490px) and (max-width: 768px){
-    /* The parallax container */
-    .parallax {
-      /* The height of the parallax container */
-      height: 800px;
-    
-      /* This makes the background image fixed when scrolling */
-      background-attachment: fixed;
-    
-      /* The background image */
-      background-image: url('./images/truck.jpg');
-    
-      /* Center and cover the background image */
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-  
-      /* span the width of the screen */
-      width: 100%;
-      margin: 0 auto;
-    }
+  .parallax {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .truck-img {
+    width: 100vw;
+    height: auto;
+  }
   
     .traviesas-content{
       padding-right: 10%;
@@ -1215,25 +1188,8 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
 /* LAPTOP */
 @media screen and (min-width: 769px) and (max-width: 1024px){
-    /* The parallax container */
     .parallax {
-      /* The height of the parallax container */
-      height: 800px;
-    
-      /* This makes the background image fixed when scrolling */
-      background-attachment: fixed;
-    
-      /* The background image */
-      background-image: url('./images/truck.jpg');
-    
-      /* Center and cover the background image */
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 50% 100%;
-  
-      /* span the width of the screen */
-      width: 100%;
-      margin: 0 auto;
+
     }
   
     .traviesas-content{
@@ -1613,25 +1569,8 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
 /* DESKTOP */
 @media screen and (min-width: 1025px) and (max-width: 1440px){
-    /* The parallax container */
     .parallax {
-      /* The height of the parallax container */
-      height: 800px;
-    
-      /* This makes the background image fixed when scrolling */
-      background-attachment: fixed;
-    
-      /* The background image */
-      background-image: url('./images/truck.jpg');
-    
-      /* Center and cover the background image */
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-  
-      /* span the width of the screen */
-      width: 100%;
-      margin: 0 auto;
+
     }
   
     .traviesas-content{
@@ -2015,25 +1954,8 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
 /* DESKTOP-L */
 @media screen and (min-width: 1440px){
-    /* The parallax container */
     .parallax {
-      /* The height of the parallax container */
-      height: 800px;
-    
-      /* This makes the background image fixed when scrolling */
-      background-attachment: fixed;
-    
-      /* The background image */
-      background-image: url('./images/truck.jpg');
-    
-      /* Center and cover the background image */
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 40% 100%;
-  
-      /* span the width of the screen */
-      width: 100%;
-      margin: 0 auto;
+
     }
   
     .traviesas-content{

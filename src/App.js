@@ -13,6 +13,8 @@ import image3 from './images/IMG_0638.jpeg'
 import image4 from './images/IMG_0781.jpeg'
 import image5 from './images/IMG_0945.jpeg'
 import image6 from './images/IMG_1897.jpeg'
+import { Parallax, Background } from 'react-parallax';
+import truck from './images/truck.jpg'
 
 
 function App() {
@@ -91,8 +93,11 @@ function App() {
                 <br/><br/>
                 Our aim is to bridge cultures through food, sharing what brings us the most joy in our lives: tacos. 
               </div>
-              <div className='parallax'>
-            </div>
+              <Parallax className='parallax' strength={300}>
+                <Background className="custom-bg">
+                    <img className='truck-img' src={truck} alt="fill murray" />
+                </Background>
+              </Parallax>
             <div className='chef-wrapper'>
               <div className='circle-outer'>
                 <div className='circle'></div>

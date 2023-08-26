@@ -807,7 +807,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 /* TABLET */
 @media screen and (min-width: 490px) and (max-width: 768px){
   .parallax {
-    height: 400px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1188,9 +1188,17 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
 /* LAPTOP */
 @media screen and (min-width: 769px) and (max-width: 1024px){
-    .parallax {
+  .parallax {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    }
+  .truck-img {
+    width: 80vw;
+    height: auto;
+  }
   
     .traviesas-content{
       padding-right: 5%;
@@ -1569,9 +1577,17 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
 /* DESKTOP */
 @media screen and (min-width: 1025px) and (max-width: 1440px){
-    .parallax {
+  .parallax {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    }
+  .truck-img {
+    width: 70vw;
+    height: auto;
+  }
   
     .traviesas-content{
       padding-right: 5%;
@@ -1954,9 +1970,17 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
 /* DESKTOP-L */
 @media screen and (min-width: 1440px){
-    .parallax {
+  .parallax {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    }
+  .truck-img {
+    width: 50vw;
+    height: auto;
+  }
   
     .traviesas-content{
       padding-right: 5%;

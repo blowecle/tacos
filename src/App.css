@@ -41,6 +41,20 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   align-items: center;
 }
 
+.bottom {
+  margin-bottom: 0%;
+}
+
+.insta {
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+.insta-link {
+  text-decoration: none;
+  color: white;
+}
+
 /* MOBILE-S */
 @media screen and (max-width: 320px){
   .parallax {
@@ -313,7 +327,6 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .menu-content{
     font-style: italic;
     text-align: center;
-    margin-bottom: 5%;
   }
 
   .logo-wrapper {
@@ -435,6 +448,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .truck-img {
     width: 100vw;
     height: auto;
+    margin-top: 100px;
   }
 
   .traviesas-content{
@@ -454,6 +468,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
   .catering-content{
     text-align: center;
+    font-size: .8rem;
     font-style: italic;
     margin-bottom: 5%;
   }
@@ -563,8 +578,8 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .overlay4{
-    top: 50%;
-    right: -10%;
+    top: 130px;
+    right: -40px;
   }
 
   .overlay-image4{
@@ -577,8 +592,8 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .overlay5{
-    bottom: -30%;
-    left: 20%;
+    bottom: -40px;
+    left: 60px;
   }
 
   .overlay-image5{
@@ -591,8 +606,8 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .overlay6{
-    bottom: 0%;
-    left: -13%;
+    bottom: 20px;
+    left: -50px;
   }
 
   .overlay-image6{
@@ -694,7 +709,6 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .menu-content{
     font-style: italic;
     text-align: center;
-    margin-bottom: 5%;
   }
 
   .logo-wrapper {
@@ -816,12 +830,10 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .truck-img {
     width: 100vw;
     height: auto;
+    margin-top: 250px;
   }
   
     .traviesas-content{
-      padding-right: 10%;
-      padding-left: 10%;
-      margin-bottom: 10%;
       margin-top: 5%;
     }
 
@@ -840,6 +852,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     text-align: center;
     font-style: italic;
     margin-bottom: 5%;
+    font-size: .7rem;
   }
 
   .chef-wrapper{
@@ -847,6 +860,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     align-items: center;
     justify-content: center;
     margin-top: 5%;
+    margin-bottom: 5%;
   }
 
   .circle {
@@ -906,50 +920,50 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .overlay1{
-    top: -10%;
-    left: 0;
+    top: -50px;
+    left: -75px;
   }
 
   .overlay-image1{
-    width: 220%;
-    height: 220%;
+    width: 200%;
+    height: auto;
     object-fit: cover;
     position: absolute;
-    top: -120%;
-    left: -80%;
+    top: -243px;
+    left: -107px;
   }
 
   .overlay2{
-    top: 25%;
-    right: -7%;
+    top: 100px;
+    right: -64px;
   }
 
   .overlay-image2{
-    width: 180%;
-    height: 180%;
+    width: 125%;
+    height: auto;
     object-fit: cover;
     position: absolute;
-    left: -50%;
-    top: -30%;
+    left: -25px;
+    top: -50px;
   }
 
   .overlay3{
-    bottom: 2%;
-    left: 0%;
+    bottom: 0px;
+    left: -75px;
   }
 
   .overlay-image3{
     width: 250%;
-    height: 250%;
+    height: auto;
     object-fit: cover;
     position: absolute;
-    left: -100%;
-    top: -80%;
+    left: -150px;
+    top: -200px;
   }
 
   .overlay4{
-    top: 10%;
-    right: 0%;
+    top: 0px;
+    right: -82px;
   }
 
   .overlay-image4{
@@ -962,8 +976,8 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .overlay5{
-    bottom: -40%;
-    left: 16%;
+    bottom: -55px;
+    left: 50px;
   }
 
   .overlay-image5{
@@ -976,8 +990,8 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .overlay6{
-    bottom: 0%;
-    left: -13%;
+    bottom: 72px;
+    left: -105px;
   }
 
   .overlay-image6{
@@ -1077,7 +1091,6 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .menu-content{
     font-style: italic;
     text-align: center;
-    margin-bottom: 5%;
   }
 
   .logo-wrapper {
@@ -1097,7 +1110,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
   .slider {
     padding-top: 2vh;
-    width: 60vw;
+    width: 80vw;
     height: 60%;
     overflow: hidden;
   }
@@ -1106,12 +1119,12 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     display: flex;
     flex-direction: row;
     width: 400%;
-    height: 60%;
+    height: auto;
     animation: slide 14s ease-in infinite;
   }
     
   .slide img {
-    width: 60vw;
+    width: 80vw;
     height: 60%;
     overflow:hidden;
     object-fit: cover;
@@ -1150,6 +1163,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
   .catering {
     color: white;
+    width: 100%;
   }
 
   .cater-wrapper {
@@ -1198,13 +1212,14 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .truck-img {
     width: 80vw;
     height: auto;
+    margin-top: 200px;
   }
   
     .traviesas-content{
+      margin-top: 5%;
       padding-right: 5%;
       padding-left: 5%;
       margin-bottom: 10%;
-      margin-top: 5%;
     }
 
   .content-header-catering{
@@ -1226,6 +1241,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     align-items: center;
     justify-content: center;
     margin-top: 5%;
+    margin-bottom: 5%;
   }
 
   .circle {
@@ -1284,17 +1300,17 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .overlay1{
-    top: -20%;
-    left: 9%;
+    top: -88px;
+    left: -13px;
   }
 
   .overlay-image1{
-    width: 200%;
-    height: 200%;
+    width: 150%;
+    height: auto;
     object-fit: cover;
     position: absolute;
-    top: -98%;
-    left: -55%;
+    top: -183px;
+    left: -70px;
   }
 
   .overlay2{
@@ -1303,26 +1319,26 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .overlay-image2{
-    width: 150%;
-    height: 150%;
+    width: 110%;
+    height: auto;
     object-fit: cover;
     position: absolute;
-    left: 0%;
-    top: -12%;
+    left: 0px;
+    top: -37px;
   }
 
   .overlay3 {
-    bottom: 1%;
-    left: -2%;
+    bottom: 10px;
+    left: -47px;
 }
 
   .overlay-image3{
-    width: 250%;
-    height: 250%;
+    width: 200%;
+    height: auto;
     object-fit: cover;
     position: absolute;
-    left: -100%;
-    top: -80%;
+    left: -136px;
+    top: -210px;
   }
 
   .overlay4{
@@ -1433,7 +1449,6 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     font-size: 1rem;
     text-align: center;
     width: 90%;
-    margin-bottom: 5%;
     font-style: italic;
   }
 
@@ -1445,6 +1460,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     font-family: verdanaBold;
     font-size: 2rem;
     text-align: center;
+    margin-bottom: 5%;
   }
 
   .menu-wrapper {
@@ -1455,7 +1471,6 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .menu-content{
     font-style: italic;
     text-align: center;
-    margin-bottom: 5%;
   }
 
   .logo-wrapper {
@@ -1534,6 +1549,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .catering {
     color: white;
     margin-top: 8%;
+    width: 60%
   }
 
   .cater-wrapper {
@@ -1584,6 +1600,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .truck-img {
+    margin-top: 250px;
     width: 70vw;
     height: auto;
   }
@@ -1676,12 +1693,12 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .overlay-image1{
-    width: 200%;
-    height: 200%;
+    width: 150%;
+    height: auto;
     object-fit: cover;
     position: absolute;
-    top: -98%;
-    left: -55%;
+    top: -168px;
+    left: -77px;
   }
 
   .overlay2{
@@ -1690,12 +1707,12 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .overlay-image2{
-    width: 150%;
-    height: 150%;
+    width: 125%;
+    height: auto;
     object-fit: cover;
     position: absolute;
-    left: 0%;
-    top: -12%;
+    left: -23px;
+    top: -26px;
   }
 
   .overlay3 {
@@ -1704,55 +1721,55 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 }
 
   .overlay-image3{
-    width: 250%;
-    height: 250%;
+    width: 200%;
+    height: auto;
     object-fit: cover;
     position: absolute;
-    left: -100%;
-    top: -80%;
+    left: -140px;
+    top: -210px;
   }
 
   .overlay4{
-    top: 61%;
-    right: -1%;
+    top: 14px;
+    right: 30px;
   }
 
   .overlay-image4{
     width: 120%;
-    height: 120%;
+    height: auto;
     object-fit: cover;
     position: absolute;
-    top: 0%;
-    left: -10%;
+    top: -14px;
+    left: -25px;
   }
 
   .overlay5{
-    bottom: -54%;
-    left: 20%;
+    bottom: -55px;
+    left: 154px;
   }
 
   .overlay-image5{
-    width: 200%;
-    height: 200%;
+    width: 175%;
+    height: auto;
     object-fit: cover;
     position: absolute;
-    left: -50%;
-    top: -50%;
+    left: -64px;
+    top: -85px;
   }
 
   .overlay6{
-    bottom: 0%;
-    left: -7%;
+    bottom: 106px;
+    left: -30px;
   }
 
   .overlay-image6{
     width: 150%;
-    height: 150%;
+    height: auto;
     rotate: calc(-20deg);
     object-fit: cover;
     position: absolute;
-    left: 0%;
-    top: -10%;
+    left: 0px;
+    top: -50px;
   }
 
   .content-header-chef{
@@ -1844,7 +1861,6 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .menu-content{
     font-style: italic;
     text-align: center;
-    margin-bottom: 5%;
   }
 
   .logo-wrapper {
@@ -1914,7 +1930,6 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     border: none;
     width: 30%;
     font-size: 20px;
-    margin-top: 6%;
   }
 
   .about {
@@ -1925,11 +1940,11 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
   .catering {
     color: white;
+    width: 50%;
   }
 
   .cater-wrapper {
-    width: 30vw;
-    height: 500px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -1966,6 +1981,12 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .truck-img {
+    margin-top: 450px;
+  }
+}
+
 /* DESKTOP-L */
 @media screen and (min-width: 1440px){
   .parallax {
@@ -1976,6 +1997,7 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .truck-img {
+    margin-top: 250px;
     width: 50vw;
     height: auto;
   }
@@ -1983,8 +2005,12 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     .traviesas-content{
       padding-right: 5%;
       padding-left: 5%;
-      margin-top: 5%;
       margin-bottom: 5%;
+      font-size: 1.4rem;
+    }
+
+    .bottom {
+      margin-bottom: 0%;
     }
 
   .content-header-catering{
@@ -2023,8 +2049,9 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
   .zoe-name {
     color: white;
-    font-size: 1rem;
+    font-size: 1.8rem;
     font-weight: 700;
+    margin-bottom: 5%;
     font-style: bold;
     text-align: center;
     font-style: italic;
@@ -2042,8 +2069,8 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     position: absolute;
     border-radius: 50%;
     overflow: hidden;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
   }
   
   .overlay-bottom {
@@ -2063,17 +2090,17 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .overlay1{
-    top: -3%;
-    left: 16%;
+    top: -130px;
+    left: 112px;
   }
 
   .overlay-image1{
-    width: 200%;
-    height: 200%;
+    width: 150%;
+    height: auto;
     object-fit: cover;
     position: absolute;
-    top: -98%;
-    left: -55%;
+    top: -239px;
+    left: -84px;
   }
 
   .overlay2{
@@ -2082,12 +2109,12 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .overlay-image2{
-    width: 150%;
-    height: 150%;
+    width: 110%;
+    height: auto;
     object-fit: cover;
     position: absolute;
-    left: 0%;
-    top: -12%;
+    left: 0px;
+    top: -20px;
   }
 
   .overlay3 {
@@ -2096,59 +2123,59 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 }
 
   .overlay-image3{
-    width: 250%;
-    height: 250%;
+    width: 241%;
+    height: auto;
     object-fit: cover;
     position: absolute;
-    left: -100%;
-    top: -80%;
+    left: -178px;
+    top: -277px
   }
 
   .overlay4{
-    top: 4%;
-    right: 9%;
+    top: -100px;
+    right: 90px;
   }
 
   .overlay-image4{
     width: 120%;
-    height: 120%;
+    height: auto;
     object-fit: cover;
     position: absolute;
-    top: 0%;
-    left: -10%;
+    top: -50px;
+    left: -20px
   }
 
   .overlay5{
-    bottom: -35%;
-    left: 23%;
+    bottom: -98px;
+    left: 196px;
   }
 
   .overlay-image5{
-    width: 200%;
-    height: 200%;
+    width: 156%;
+    height: auto;
     object-fit: cover;
     position: absolute;
-    left: -50%;
-    top: -50%;
+    left: -59px;
+    top: -91px;
   }
 
   .overlay6{
-    bottom: 53%;
-    left: -2%;
+    bottom: 140px;
+    left: -20px;
   }
 
   .overlay-image6{
     width: 150%;
-    height: 150%;
+    height: auto;
     rotate: calc(-20deg);
     object-fit: cover;
     position: absolute;
-    left: 0%;
-    top: -10%;
+    left: 0px;
+    top: -97px;
   }
 
   .content-header-chef{
-    font-size: 1.3rem;
+    font-size: 2.3rem;
     font-weight: 700;
     font-style: bold;
     text-align: center;
@@ -2199,10 +2226,9 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   }
 
   .social {
-    width: 10vw;
-    height: 10vw;
+    width: 5vw;
+    height: auto;
     margin-top: 5%;
-    margin-bottom: 10vh;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -2236,7 +2262,6 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
   .menu-content{
     font-style: italic;
     text-align: center;
-    margin-bottom: 5%;
     font-size: 1.5rem;
   }
 
@@ -2307,7 +2332,6 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
     border: none;
     width: 30%;
     font-size: 20px;
-    margin-top: 3.5%;
   }
 
   .about {
@@ -2318,11 +2342,11 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
   .catering {
     color: white;
+    width: 50%;
   }
 
   .cater-wrapper {
-    width: 30vw;
-    height: 500px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -2356,5 +2380,27 @@ src: url('../public/Fonts/HandCraftedARegular.ttf');
 
   .inner-wrapper {
     width: 80%;
+  }
+}
+
+.bottom {
+  margin-bottom: 0%;
+}
+
+@media screen and (min-width: 1600px) {
+  .truck-img {
+    margin-top: 450px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .truck-img {
+    margin-top: 550px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .truck-img {
+    margin-top: 650px;
   }
 }

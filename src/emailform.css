@@ -2,12 +2,21 @@
     resize: none;
 }
 
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+}
+
 /* MOBILE */
 @media screen and (max-width: 490px){
     .contact-form{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .name-input{
@@ -33,6 +42,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .name-input{
@@ -48,7 +58,6 @@
     .message-input{
         width: 90%;
         height: 10vh;
-        margin-bottom: 2%;
     }
 }
 
@@ -58,6 +67,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .name-input{
@@ -73,7 +83,6 @@
     .message-input{
         width: 90%;
         height: 10vh;
-        margin-bottom: 2%;
     }
 }
 
@@ -83,6 +92,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .name-input{
@@ -98,7 +108,6 @@
     .message-input{
         width: 90%;
         height: 200px;
-        margin-bottom: 2%;
     }
 }
 
@@ -108,6 +117,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .name-input{
@@ -123,6 +133,5 @@
     .message-input{
         width: 90%;
         height: 200px;
-        margin-bottom: 2%;
     }
 }

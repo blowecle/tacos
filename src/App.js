@@ -93,7 +93,9 @@ function App() {
                 <br/><br/>
                 Our aim is to bridge cultures through food, sharing what brings us the most joy in our lives: tacos. 
               </div>
-              <Parallax className='parallax' strength={50}>
+              <Parallax className='parallax' 
+              strength={300}
+              >
                 <Background className="custom-bg">
                     <img className='truck-img' src={truck} alt="fill murray" />
                 </Background>
@@ -110,7 +112,7 @@ function App() {
             </div>
             <div className='zoe-name'>Zoë Salcedo</div>
             <div className='content-body-about'>
-              <div className='traviesas-content'>
+              <div className='traviesas-content bottom'>
               Zoë Salcedo spent much of her childhood, teenage years, and early adulthood in San Francisco's vibrant Mission District, an area rich in Mexican, Central American, and broader Latin influences. She began her culinary journey as a dishwasher at The Liberty Cafe and gradually progressed through some of San Francisco's finest kitchens, from Incanto to Bar Tartine and Delfina. She also had the distinction of opening San Francisco’s first dedicated Champagne bar. Throughout these experiences, she worked closely with predominantly Spanish-speaking colleagues. It was in these kitchens that she developed a deep appreciation for the language, cuisine, people, music, and expansive culture of Mexico, with all its flavorful nuances.
                 <br/><br/>
                 Zoë brings an extensive culinary skillset, vast knowledge in her field, and above all, a relentless curiosity that always seeks new flavors and time-honored techniques.
@@ -142,8 +144,11 @@ function App() {
         </div>
         <div className='menu-wrapper'>
           <div className='content-header-menu'>MENU</div>
-          <div className='menu-content'>Our menu changes often so please follow us on<br/>
-instagram @TacosTraviesas</div>
+          <div className='menu-content'>Our menu changes often so please follow us on 
+instagram:</div>
+<div className='insta'>
+  <a className='insta-link' href='https://www.instagram.com/tacostraviesas/'>@TacosTraviesas</a>
+  </div>
         </div>
         </div>
         <div ref={ref3} className='content catering'>

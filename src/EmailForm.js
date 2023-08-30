@@ -30,7 +30,9 @@ export default function EmailForm() {
             placeholder="What can we do for you?"
             required
             ></textarea>
-            <button type="submit">Send</button>
+            <div className='button-wrapper'>
+              <button type="submit">Send</button>
+            </div>
         </form>
       );
 }
